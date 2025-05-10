@@ -12,7 +12,7 @@ hero: images/posts/tech-stack/hero.svg
 
 As someone who works primarily in a Microsoft environment but lives on a Mac, I've built a unique blend of tools that help me stay productive, solve problems, and get the most out of my workday. While I'm always experimenting, this post outlines the core stack I rely on day-to-day. Think of it as my **personal tech stack**—not just for coding, but for thinking, planning, communicating, and automating.
 
-{{< figure src="/posts/tech-stack/techstack.png" alt="My Personal Tech Stack: Tools That Power My Day" width="400px" >}}
+{{< figure src="/posts/tech-stack/techstack25.png" alt="My Personal Tech Stack: Tools That Power My Day" width="400px" >}}
 
 ## 🧠 Productivity & Communication
 
@@ -73,5 +73,5 @@ This stack reflects how I think, work, and solve problems each day. I'm always r
 
 💡 Got a recommendation? Or want to swap tool ideas? I'd love to hear what's in your stack.
 
-📬 Feel free to reach out to me on **Bluesky**: [adam@askdam.cloud](https://bsky.app/profile/askadam.cloud)
+📬 Feel free to reach out to me on **Bluesky**: [adam@askdam.cloud](https://bsky.app/profile/askadam.cloud) 
 
