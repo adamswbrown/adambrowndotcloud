@@ -5,69 +5,90 @@ section:
   enable: true
   weight: 3
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true 
+  template: sections/experiences.html
 
-# Your experiences
 experiences:
-- company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-  positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+  - company:
+      name: Altra
+      url: "https://www.linkedin.com/company/altra-cloud/"
+      location: "United Kingdom"
+      #logo: /images/sections/experiences/altra.png
+    positions:
+      - designation: Principal Consultant
+        start: "2024-08"
+        end: ""
+        responsibilities:
+          - Led strategic deployment and enhancement of Dr Migrate solutions across UK, CEE, and the Middle East.
+          - Enabled global system integrator partnerships to support wider geographic delivery.
+          - Delivered FinOps, assessment, and migration outcomes tailored to enterprise needs.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+      - designation: Senior Presales Engineer
+        start: "2023-11"
+        end: "2024-08"
+        responsibilities:
+          - Drove product enhancements and customer enablement for Dr Migrate in UK and EMEA regions.
+          - Worked closely with clients and partners to deliver successful assessments and migrations.
+          - Developed technical content and presales collateral for enablement.
 
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+  - company:
+      name: LAB3
+      url: "https://www.lab3.com.au/"
+      location: "Belfast, Northern Ireland"
+      #logo: /images/sections/experiences/lab3.png
+    positions:
+      - designation: Senior Engineer – Dr Migrate
+        start: "2022-12"
+        end: "2023-10"
+        responsibilities:
+          - Led European expansion of Dr Migrate with a focus on Western Europe and Germany.
+          - Produced technical collateral and tooling to support assessments and partner delivery.
+          - Coordinated with global teams for scalable content development and delivery support.
 
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+  - company:
+      name: Inviso
+      url: "https://www.invisocorp.com/"
+      location: "Belfast, Northern Ireland"
+      #logo: /images/sections/experiences/inviso.png
+    positions:
+      - designation: Azure Assessment Consultant
+        start: "2020-04"
+        end: "2022-11"
+        responsibilities:
+          - Delivered Azure cloud assessments and software asset management consulting.
+          - Supported customers in infrastructure optimization and migration planning.
+          - Worked closely with Microsoft account teams to align cloud strategy and execution.
+
+  - company:
+      name: CloudM / Cloud Technology Solutions
+      url: "https://www.cloudm.io/"
+      location: "Belfast, United Kingdom"
+      #logo: /images/sections/experiences/cloudm.png
+    positions:
+      - designation: Customer Success Manager
+        start: "2019-10"
+        end: "2020-04"
+        responsibilities:
+          - Led product adoption and onboarding for Office 365 and G Suite clients.
+          - Delivered enablement sessions and drove usage of CloudM's migration tools.
+
+      - designation: Technical Product Specialist
+        start: "2017-09"
+        end: "2020-04"
+        responsibilities:
+          - Delivered pre-sales expertise and technical support for CloudM’s migration tools.
+          - Liaised with development teams to improve product features and documentation.
+          - Authored technical articles and onboarding content.
+
+  - company:
+      name: Cased Dimensions
+      url: "https://www.caseddimensions.com/"
+      location: "Belfast, United Kingdom"
+      #logo: /images/sections/experiences/cased-dimensions.png
+    positions:
+      - designation: Senior Consultant
+        start: "2015-05"
+        end: "2017-09"
+        responsibilities:
+          - Implemented hybrid Azure solutions and Microsoft automation tools.
+          - Worked across SCOM, SCCM, and Orchestrator deployments.
+          - Contributed to ISO 27001 certification and SC-cleared projects.

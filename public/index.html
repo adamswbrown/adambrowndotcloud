@@ -1,0 +1,2071 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.147.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>John&#39;s Blog</title>
+    
+    
+      
+      
+        
+      
+    
+    <meta name="description" content="Portfolio and personal blog of John Doe." />
+    
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.d3b36a5cfb962b98e8e0baff97cc6b02c3f20762ac17b0ca0a9ad293679c8e5a.css" integrity="sha256-07NqXPuWK5jo4Lr/l8xrAsPyB2KsF7DKCprSk2ecjlo=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu_a7920c91965714cb.png" />
+
+
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="John's Blog">
+
+
+
+
+
+
+
+
+<meta property="og:title" content="John&#39;s Blog"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Portfolio and personal blog of John Doe."/>
+<meta property="og:image" content="/images/author/john.png">
+<meta property="og:url" content="https://hugo-toha.github.io">
+
+
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#top-navbar" data-bs-offset="100">
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow transparent-navbar homepage" id="top-navbar">
+  <div class="container">
+    
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/inverted-logo_hu_a7920c91965714cb.png" id="logo" alt="Logo">
+      John&#39;s Blog</a>
+    <button
+      class="navbar-toggler navbar-dark"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#experiences">Experiences</a>
+                </li>
+              
+            
+            
+            
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#recent-posts">Recent Posts</a>
+                </li>
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                  
+                  
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="#accomplishments">Accomplishments</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="#achievements">Achievements</a>
+                    
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
+        
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="https://toha-guides.netlify.app/posts/">Docs</a>
+              </li>
+            
+        
+        
+        
+          
+
+
+
+  
+  
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+  
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/main-logo_hu_77a6e5ea6e57520b.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/inverted-logo_hu_a7920c91965714cb.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+  
+</nav>
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid home" id="home">
+  <style>
+     
+    #homePageBackgroundImageDivStyled {
+      background-image: url('/images/site/background_hu_a7ce769d585660e1.jpg');
+    }
+     
+    @media (min-width: 500px) and (max-width: 800px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu_a10dcd15e304ac75.jpg');
+        }
+    }
+    @media (min-width: 801px) and (max-width: 1200px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu_b53f9b8b1d857548.jpg');
+        }
+    }
+    @media (min-width: 1201px) and (max-width: 1500px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu_87d05b7ced7da9ca.jpg');
+        }
+    }
+    @media (min-width: 1501px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background.jpg');
+        }
+    }
+
+    html[data-theme='dark'] {
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/site/background_hu_a7ce769d585660e1.jpg');
+      }
+       
+      @media (min-width: 500px) and (max-width: 800px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu_a10dcd15e304ac75.jpg');
+        }
+      }
+      @media (min-width: 801px) and (max-width: 1200px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu_b53f9b8b1d857548.jpg');
+        }
+      }
+      @media (min-width: 1201px) and (max-width: 1500px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu_87d05b7ced7da9ca.jpg');
+        }
+      }
+      @media (min-width: 1501px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background.jpg');
+        }
+      }
+    }
+    </style>
+    <span class="on-the-fly-behavior"></span>
+  <div
+    id="homePageBackgroundImageDivStyled"
+    class="background container-fluid"
+  ></div>
+  <div class="container content text-center">
+    <img src="/images/author/adam_hu_a403130d6d8dda3c.png"
+      class="rounded-circle mx-auto d-block img-fluid"
+      alt="Author Image"
+    />
+    <h1 class="greeting"> Hi, I am Adam</h1>
+    
+    <div class="typing-carousel">
+      <span id="ityped" class="ityped"></span>
+      <span class="ityped-cursor"></span>
+    </div>
+    <ul id="typing-carousel-data">
+      
+        
+          <li>I am a cloud and technology consultant</li>
+        
+          <li>I am passionate about automation and optimization</li>
+        
+          <li>I am always learning and improving how things run</li>
+        
+          <li>I work on cloud migration and FinOps projects</li>
+        
+          <li>I work with teams to build smarter, more efficient systems</li>
+        
+          <li>I work to make technology more accessible and inclusive</li>
+        
+          <li>I love solving real-world problems with clean solutions</li>
+        
+          <li>I love building workflows that connect people and tools</li>
+        
+          <li>I love working on projects that make a positive impact</li>
+        
+          <li>I love creating space for focus, clarity, and creativity</li>
+        
+      
+    </ul>
+    
+      
+        
+        
+          
+        
+        <a href="#about" class="arrow-center" aria-label="Read More - Adam"><i class="arrow bounce fa fa-chevron-down"></i></a>
+      
+    
+  </div>
+</div>
+
+    
+    
+      
+    
+
+    
+      
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+  
+
+
+
+
+  
+
+
+<div class="container anchor p-lg-5 about-section" id="about">
+  <div class="row pt-sm-2 pt-md-4 align-self-center">
+    
+    
+     <div class="col-sm-6"> 
+      <h3 class="p-1">Adam Brown</h3>
+      
+      <h5 class="p-1">
+        Principal Consultant
+        
+        at <a href="https://altra.cloud" title="Altra" target="_blank" rel="noopener">Altra</a>
+        
+      </h5>
+      
+      <p class="p-1 text-justify">
+        I help organizations optimize cloud spend and streamline technical delivery. I am passionate about automation, inclusive design, and building tools that connect teams and systems.
+      </p>
+      <div class="text-container ms-auto">
+        <ul class="social-link d-flex">
+          
+          <li>
+            
+              <a href="mailto:mailto:adam@adambrown.cloud" title="Email" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://github.com/adamswbrown" title="Github" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://www.linkedin.com/in/adamswbrown" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            
+          </li>
+          
+        </ul>
+      </div>
+      
+      
+      <a href="/files/resume.pdf" title="My CV" target="#"
+        ><button class="btn btn-dark">My CV</button></a
+      >
+      
+    </div>
+    
+    <div class="col-sm-6 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
+      <div class="row">
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    <div class="certificate-badge">
+      <a href="" target="_blank" rel="noopener noreferrer">
+       <img src="https://images.credly.com/size/680x680/images/c28f46e1-b0cf-4581-a963-d04db79cd39c/image.png" alt="FinOps Certified FOCUS Analyst" />
+      </a>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    <div class="certificate-badge">
+      <a href="" target="_blank" rel="noopener noreferrer">
+       <img src="https://images.credly.com/size/680x680/images/08a5010a-0c0a-448c-981e-c116fedd380c/image.png" alt="FinOps Certified Practitioner" />
+      </a>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    <div class="certificate-badge">
+      <a href="" target="_blank" rel="noopener noreferrer">
+       <img src="https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Azure Fundamentals" />
+      </a>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    <div class="circular-progress green">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-42  circular-progress-percentage-50-delay"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Problem Solving</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    <div class="circular-progress yellow">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-30  circular-progress-percentage-50-delay"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Systems Thinking</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    <div class="circular-progress orange">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-35  circular-progress-percentage-50-delay"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Empathy</div>
+    </div>
+
+</div>
+
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-secondary">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 skills-section" id="skills">
+  
+    <h1 class="text-center">
+        <span id="skills"></span>Skills</h1>
+  
+  
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="skill-filter-buttons">
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="all">
+        All
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="cloud">
+        Cloud
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="automation">
+        Automation
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="language">
+        Language
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="tools">
+        Tools
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="others">
+        Others
+      </button>
+      
+    </div>
+  </div>
+  <div class="container d-flex-block filtr-skills">
+    <div class="row" id="skill-card-holder" style="margin-left:unset">
+  
+      
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, cloud'
+>
+  <a class="text-decoration-none" href="https://azure.microsoft.com/" title="Azure" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/azure_hu_6757262d3c5108de.png" alt="Azure" />
+          <h5 class="card-title">Azure</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Extensive experience with Azure assessments, migrations, and FinOps optimization. Deep understanding of Azure billing, governance, and automation tooling.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, cloud'
+>
+  <a class="text-decoration-none" href="https://aws.amazon.com/" title="AWS" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/aws_hu_b5d249ad91706f81.png" alt="AWS" />
+          <h5 class="card-title">AWS</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Delivered cloud strategy and migration support for AWS. Familiar with CUR, reserved instances, and AWS cost management practices.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, cloud'
+>
+  <a class="text-decoration-none" href="https://cloud.google.com/" title="Google Cloud" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/gcp_hu_238ac36511b74fc4.png" alt="Google Cloud" />
+          <h5 class="card-title">Google Cloud</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Worked with GCP in assessment and cost modeling contexts. Familiar with SKU-level billing exports and cloud-native services.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, language,automation'
+>
+  <a class="text-decoration-none" href="https://learn.microsoft.com/en-us/powershell/" title="PowerShell" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/powershell_hu_a3423ba413448dea.png" alt="PowerShell" />
+          <h5 class="card-title">PowerShell</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Created powerful automation and diagnostic scripts, including domain controller reporting, network mapping, and SQL insights.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, language,automation'
+>
+  <a class="text-decoration-none" href="https://www.python.org/" title="Python" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/python_hu_b338a7ff4d76f912.png" alt="Python" />
+          <h5 class="card-title">Python</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Used for scripting VM diagnostics, data processing, and automation in cloud and VMware environments.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, tools'
+>
+  <a class="text-decoration-none" href="https://www.docker.com/" title="Docker" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/docker.svg" alt="Docker" />
+          <h5 class="card-title">Docker</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Used for local development, containerized workflows, and self-hosted tools like n8n. Built custom images for complex integrations.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, automation'
+>
+  <a class="text-decoration-none" href="https://n8n.io/" title="n8n" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/n8n_hu_d16c9298aff6b70c.png" alt="n8n" />
+          <h5 class="card-title">n8n</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Built custom automation pipelines using n8n, integrating Salesforce, TickTick, Airtable, and APIs. Extended functionality via Docker.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, tools'
+>
+  <a class="text-decoration-none" href="https://git-scm.com/" title="Git" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/git_hu_15d77950cb79075d.png" alt="Git" />
+          <h5 class="card-title">Git</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Experienced with GitHub-based development. Used version control for scripts, shared workflows, and infrastructure-as-code.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, cloud,others'
+>
+  <a class="text-decoration-none" href="https://www.finops.org/" title="FinOps" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/finops_hu_214c0dbb36bffc17.png" alt="FinOps" />
+          <h5 class="card-title">FinOps</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Certified FinOps practitioner focused on cloud financial management. Delivered assessments and reporting at scale using billing exports and tooling.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, tools'
+>
+  <a class="text-decoration-none" href="https://www.microsoft.com/en-us/sql-server" title="SQL Server" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/sql_hu_a16be3d7fd67e0b4.png" alt="SQL Server" />
+          <h5 class="card-title">SQL Server</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Worked with SQL Server environments in migration contexts. Integrated DMA insights and schema analysis into reporting pipelines.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, language,automation'
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/linux_hu_2d0e29b40b75c6ed.png" alt="Bash / Shell" />
+          <h5 class="card-title">Bash / Shell</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Written custom Linux scripts to collect system and network data during assessments. Familiar with deployment automation and CLI tools.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, tools,others'
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/windows_hu_beed6f799b97cd4e.png" alt="Windows Server" />
+          <h5 class="card-title">Windows Server</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Managed Active Directory, Group Policy, DNS, DHCP, and SCCM across enterprise environments. Automated diagnostics and reporting in assessment contexts.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, tools,others'
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/linux_hu_2d0e29b40b75c6ed.png" alt="Linux" />
+          <h5 class="card-title">Linux</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Experienced working across Linux server distributions. Created diagnostic tools, system scripts, and automation workflows in assessment and migration scenarios.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 experiences-section">
+  
+    <h1 class="text-center">
+        <span id="experiences"></span>Experiences</h1>
+  
+
+  <div class="container timeline text-justify">
+   
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">1</div>
+</div>
+
+         <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.linkedin.com/company/altra-cloud/ title="Altra" target="_blank" rel="noopener">Altra</a></h5>
+            <p class="text-muted">
+                2023-11 - Present
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> United Kingdom
+        </p>
+        
+        <p></p>
+    </div>
+    
+    <div class="positions">
+    
+        <div class="company-heading">
+            <h5 class="designation">Principal Consultant</h5>
+            <p class="text-muted">2024-08 -  Present </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Led strategic deployment and enhancement of Dr Migrate solutions across UK, CEE, and the Middle East.</li>
+                
+                    <li>Enabled global system integrator partnerships to support wider geographic delivery.</li>
+                
+                    <li>Delivered FinOps, assessment, and migration outcomes tailored to enterprise needs.</li>
+                
+            </ul>
+        
+    
+        <div class="company-heading">
+            <h5 class="designation">Senior Presales Engineer</h5>
+            <p class="text-muted">2023-11 -  2024-08 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Drove product enhancements and customer enablement for Dr Migrate in UK and EMEA regions.</li>
+                
+                    <li>Worked closely with clients and partners to deliver successful assessments and migrations.</li>
+                
+                    <li>Developed technical content and presales collateral for enablement.</li>
+                
+            </ul>
+        
+    
+    </div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.lab3.com.au/ title="LAB3" target="_blank" rel="noopener">LAB3</a></h5>
+            <p class="text-muted">
+                2022-12 - 2023-10
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Belfast, Northern Ireland
+        </p>
+        
+        <p></p>
+    </div>
+    
+    <div class="positions">
+    
+        <div class="company-heading">
+            <h5 class="designation">Senior Engineer – Dr Migrate</h5>
+            <p class="text-muted">2022-12 -  2023-10 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Led European expansion of Dr Migrate with a focus on Western Europe and Germany.</li>
+                
+                    <li>Produced technical collateral and tooling to support assessments and partner delivery.</li>
+                
+                    <li>Coordinated with global teams for scalable content development and delivery support.</li>
+                
+            </ul>
+        
+    
+    </div>
+</div>
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">2</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">3</div>
+</div>
+
+         <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.invisocorp.com/ title="Inviso" target="_blank" rel="noopener">Inviso</a></h5>
+            <p class="text-muted">
+                2020-04 - 2022-11
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Belfast, Northern Ireland
+        </p>
+        
+        <p></p>
+    </div>
+    
+    <div class="positions">
+    
+        <div class="company-heading">
+            <h5 class="designation">Azure Assessment Consultant</h5>
+            <p class="text-muted">2020-04 -  2022-11 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Delivered Azure cloud assessments and software asset management consulting.</li>
+                
+                    <li>Supported customers in infrastructure optimization and migration planning.</li>
+                
+                    <li>Worked closely with Microsoft account teams to align cloud strategy and execution.</li>
+                
+            </ul>
+        
+    
+    </div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.cloudm.io/ title="CloudM / Cloud Technology Solutions" target="_blank" rel="noopener">CloudM / Cloud Technology Solutions</a></h5>
+            <p class="text-muted">
+                2017-09 - 2020-04
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Belfast, United Kingdom
+        </p>
+        
+        <p></p>
+    </div>
+    
+    <div class="positions">
+    
+        <div class="company-heading">
+            <h5 class="designation">Customer Success Manager</h5>
+            <p class="text-muted">2019-10 -  2020-04 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Led product adoption and onboarding for Office 365 and G Suite clients.</li>
+                
+                    <li>Delivered enablement sessions and drove usage of CloudM&rsquo;s migration tools.</li>
+                
+            </ul>
+        
+    
+        <div class="company-heading">
+            <h5 class="designation">Technical Product Specialist</h5>
+            <p class="text-muted">2017-09 -  2020-04 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Delivered pre-sales expertise and technical support for CloudM’s migration tools.</li>
+                
+                    <li>Liaised with development teams to improve product features and documentation.</li>
+                
+                    <li>Authored technical articles and onboarding content.</li>
+                
+            </ul>
+        
+    
+    </div>
+</div>
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">4</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">5</div>
+</div>
+
+         <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.caseddimensions.com/ title="Cased Dimensions" target="_blank" rel="noopener">Cased Dimensions</a></h5>
+            <p class="text-muted">
+                2015-05 - 2017-09
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Belfast, United Kingdom
+        </p>
+        
+        <p></p>
+    </div>
+    
+    <div class="positions">
+    
+        <div class="company-heading">
+            <h5 class="designation">Senior Consultant</h5>
+            <p class="text-muted">2015-05 -  2017-09 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Implemented hybrid Azure solutions and Microsoft automation tools.</li>
+                
+                    <li>Worked across SCOM, SCCM, and Orchestrator deployments.</li>
+                
+                    <li>Contributed to ISO 27001 certification and SC-cleared projects.</li>
+                
+            </ul>
+        
+    
+    </div>
+</div>
+
+       </div>
+     
+     
+   
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-secondary">
+            
+
+  
+
+
+
+
+
+
+<div class="container-fluid anchor pb-5 recent-posts-section">
+  
+    <h1 class="text-center">
+        <span id="recent-posts"></span>Recent Posts</h1>
+  
+  <div class="container">
+    <div class="row" id="recent-post-cards">
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/shortcodes/" class="post-card-link">
+        <img class="card-img-top" src='/posts/shortcodes/boat.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/shortcodes/" class="post-card-link">
+        <h5 class="card-title">Shortcodes Samples</h5>
+        <p class="card-text post-summary">This is a sample post intended to test the followings:
+Default hero image. Different shortcodes. Alert The following alerts are available in this theme.
+This is sample alert with type=&quot;success&quot;. This is sample alert with type=&quot;danger&quot;. This is sample alert with type=&quot;warning&quot;. This is sample alert with type=&quot;info&quot;. This is sample alert with type=&quot;dark&quot;. This is sample alert with type=&quot;primary&quot;. This is sample alert with type=&quot;secondary&quot;. Image A sample image without any attribute. A sample image with height and width attributes. A center aligned image with height and width attributes. A image with float attribute. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.
+</p>
+      </a>
+      
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+  </ul>
+</div>
+
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Monday, June 8, 2020
+           | 3 minutes </span>
+      <a
+      href="/posts/shortcodes/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/category/sub-category/rich-content/" class="post-card-link">
+        <img class="card-img-top" src='/posts/category/sub-category/rich-content/images/forest.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/category/sub-category/rich-content/" class="post-card-link">
+        <h5 class="card-title">Rich Content</h5>
+        <p class="card-text post-summary">This sample post tests the followings:
+Category, sub-category nesting in the sidebar. Hero image and other images are in images folder inside this post directory. Different media rendering like image, tweet, YouTube video, Vimeo video etc. Image Sample Tweet Sample Owl bet you&#39;ll lose this staring contest 🦉 pic.twitter.com/eJh4f2zncC
+&mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021 YouTube Video Sample Vimeo Video Sample </p>
+      </a>
+      
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/markdown/" class="btn btn-sm btn-info">Markdown</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/content-organization/" class="btn btn-sm btn-info">Content Organization</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/multi-lingual/" class="btn btn-sm btn-info">Multi-lingual</a></li>
+    
+  </ul>
+</div>
+
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Monday, June 8, 2020
+           | 1 minute </span>
+      <a
+      href="/posts/category/sub-category/rich-content/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/markdown-sample/" class="post-card-link">
+        <img class="card-img-top" src='/posts/markdown-sample/hero.svg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/markdown-sample/" class="post-card-link">
+        <h5 class="card-title">Markdown Samples</h5>
+        <p class="card-text post-summary">This is a sample post intended to test the followings:
+A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering. Markdown Syntax Rendering Headings The following HTML &lt;h1&gt;—&lt;h6&gt; elements represent six levels of section headings. &lt;h1&gt; is the highest section level while &lt;h6&gt; is the lowest.
+H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+</p>
+      </a>
+      
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+  </ul>
+</div>
+
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Monday, June 8, 2020
+           | 3 minutes </span>
+      <a
+      href="/posts/markdown-sample/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+  
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 accomplishments-section">
+  
+    <h1 class="text-center">
+        <span id="accomplishments"></span>Accomplishments</h1>
+  
+  
+  <div class="container">
+    <div class="row" id="accomplishment-card-holder">
+      
+        <div class="col-md-12 col-lg-6 p-2">
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">FinOps Certified FOCUS Analyst</h5>
+      <div class="sub-title">
+        <span><a href="https://www.finops.org" title="FinOps Foundation" target="_blank" rel="noopener">FinOps Foundation</a></span>
+        <span class="ms-2">2024</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <p>This certification demonstrates the ability to analyze and act on complex cloud financial data using FinOps practices. It covers forecasting, anomaly detection, performance benchmarking, and advanced reporting for multi-cloud environments.</p>
+    </div>
+    <div class="card-footer">
+      
+        <a class="btn btn-outline-info ms-1 ps-2 mb-2" href="https://www.credly.com/org/finops-foundation/badge/finops-certified-focus-analyst" target="_blank" rel="noopener" role="button">View Certificate</a>
+      
+    </div>
+  </div>
+</div>
+
+      
+        <div class="col-md-12 col-lg-6 p-2">
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">Microsoft Certified Azure Fundamentals</h5>
+      <div class="sub-title">
+        <span><a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/" title="Microsoft" target="_blank" rel="noopener">Microsoft</a></span>
+        <span class="ms-2">2023</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <p>Validates foundational knowledge of cloud services and how those services are provided with Microsoft Azure. Covers cloud concepts, core Azure services, security, privacy, compliance, and trust.</p>
+    </div>
+    <div class="card-footer">
+      
+        <a class="btn btn-outline-info ms-1 ps-2 mb-2" href="https://www.credly.com/badges/8fe0d64f-d24d-44b1-b875-123456abcdef" target="_blank" rel="noopener" role="button">View Certificate</a>
+      
+    </div>
+  </div>
+</div>
+
+      
+        <div class="col-md-12 col-lg-6 p-2">
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">Development of Assessment Automation Workflows</h5>
+      <div class="sub-title">
+        <span><a href="" title="Independent / Altra" target="_blank" rel="noopener">Independent / Altra</a></span>
+        <span class="ms-2">2020 – Present</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <p>Designed and implemented automated assessment pipelines using n8n, Docker, Salesforce CLI, and APIs. Integrated Airtable and TickTick to streamline partner operations and reduce duplicate effort in reporting and follow-up.</p>
+    </div>
+    <div class="card-footer">
+      
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-secondary">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 achievements-section">
+  
+    <h1 class="text-center">
+        <span id="achievements"></span>Achievements</h1>
+  
+  <div class="container">
+    <div class="row" id="gallery">
+    </div>
+  </div>
+  
+  <div class="d-none" id="achievements-holder">
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/presenter_hu_b3337d2efbfc507e.jpg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Best Presenter</h4>
+  <div class="caption hidden col-lg-6 text-start" id="caption">
+    <h4>Best Presenter</h4>
+    <p>Best presenter in the 2020 XYZ conference.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/presenter_hu_b3337d2efbfc507e.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/presenter_hu_6623d0302e35704.jpg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/sport_hu_2a43d06ab4b4a145.jpg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Champion</h4>
+  <div class="caption hidden col-lg-6 text-start" id="caption">
+    <h4>Champion</h4>
+    <p>Champion in cycling inter-city cycling championship 2020.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/sport_hu_2a43d06ab4b4a145.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/sport_hu_1fd74c483ecdf9f4.jpg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/graduation-cap_hu_333bf54e4b1b0b9b.jpg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Graduation</h4>
+  <div class="caption hidden col-lg-6 text-start" id="caption">
+    <h4>Graduation</h4>
+    <p>Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/graduation-cap_hu_333bf54e4b1b0b9b.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/graduation-cap_hu_994864bbb0c50c3.jpg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/woman-winner_hu_cb8b1a7a5bf290f9.jpg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Award Winner</h4>
+  <div class="caption hidden col-lg-6 text-start" id="caption">
+    <h4>Award Winner</h4>
+    <p>Wined best paper award at IEE Conference 2020.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/woman-winner_hu_cb8b1a7a5bf290f9.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/woman-winner_hu_dc7e9b89caaf5eaa.jpg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#experiences">Experiences</a>
+                </li>
+              
+              
+              
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#accomplishments">Accomplishments</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#achievements">Achievements</a>
+                </li>
+              
+            
+              
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:adam@adambrown.cloud target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>adam@adambrown.cloud</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/adamswbrown target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>adamswbrown</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/adamswbrown target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Adam Brown</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    <hr />
+    <div class="container">
+      <p id="disclaimer"><strong>Liability Notice:</strong> This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses. You can modify or distribute the theme without requiring any permission from the theme author. However, the theme author does not provide any warranty or takes any liability for any issue with the theme.</p>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu_b3360284c55cf72d.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2020 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.69f97b29d36414bf105b8bc2fe10b5e3708b2a1b637e60eddcad51dfc390bc09.js" integrity="sha256-afl7KdNkFL8QW4vC/hC143CLKhtjfmDt3K1R38OQvAk=" defer></script>
+
+
+    
+    
+
+</body>
+</html>
