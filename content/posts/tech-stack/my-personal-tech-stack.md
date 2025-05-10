@@ -73,5 +73,5 @@ This stack reflects how I think, work, and solve problems each day. I'm always r
 
 💡 Got a recommendation? Or want to swap tool ideas? I'd love to hear what's in your stack.
 
-📬 Feel free to reach out to me on **Bluesky**: [adam@askdam.cloud](https://bsky.app/profile/adam@askdam.cloud)
+📬 Feel free to reach out to me on **Bluesky**: [adam@askdam.cloud](https://bsky.app/profile/askadam.cloud)
 
