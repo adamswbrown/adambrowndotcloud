@@ -3,6 +3,6 @@ title: Top Category Sample
 menu:
   sidebar:
     name: Category
-    identifier: category
+    identifier: category-en
     weight: 20
 ---

@@ -4,8 +4,8 @@ weight: 40
 menu:
   notes:
     name: File Manipulation
-    identifier: notes-go-advanced-files
-    parent: notes-go-advanced
+    identifier: notes-go-advanced-files-en
+    parent: notes-go-advanced-en
     weight: 10
 ---
 

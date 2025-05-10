@@ -3,7 +3,7 @@ title: Go Notes
 menu:
   notes:
     name: Go
-    identifier: notes-go
+    identifier: notes-go-en
     weight: 10
 ---
 
