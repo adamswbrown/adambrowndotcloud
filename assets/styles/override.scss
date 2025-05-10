@@ -1,0 +1,22 @@
+.share-buttons {
+  display: none !important;
+}
+
+/* Hide the entire row containing share buttons if it's empty or only contains share buttons */
+.share-buttons:empty {
+  display: none !important;
+}
+
+.row:has(> .share-buttons:only-child) {
+  display: none !important;
+}
+
+.row:empty {
+  display: none !important;
+}
+
+/* Hide <hr> that immediately follows a row with no visible content */
+.row:empty + hr,
+.row:has(> .share-buttons:only-child:has(> strong:only-child)) + hr {
+  display: none !important;
+} 
