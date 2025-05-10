@@ -60,5 +60,8 @@
     "postcss-cli": "^11.0.0"
   },
   "name": "hugo-toha.github.io",
+  "scripts": {
+    "autoprefixer": "postcss assets/styles/main.css -o assets/styles/main.processed.css"
+  },
   "version": "0.1.0"
 }
