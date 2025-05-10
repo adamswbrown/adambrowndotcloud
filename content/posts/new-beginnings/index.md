@@ -15,7 +15,7 @@ author:
 image_alt: "A path leading into a misty forest, symbolizing new beginnings and personal journey"
 ---
 
-Hi there — I'm glad you've found your way here.
+Hi there - I'm glad you've found your way here.
 
 I'm Adam, and this blog exists for a reason that's both personal and practical. I live with photosensitive epilepsy and dyspraxia. These conditions shape how I experience the world — sometimes in challenging ways, but often in ways that have given me unique perspectives, habits, and ways of working.
 
