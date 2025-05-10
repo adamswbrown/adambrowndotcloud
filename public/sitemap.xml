@@ -121,12 +121,42 @@
     <priority>0.1</priority>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-11T08:00:00-07:00</lastmod>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/new-beginnings/</loc>
-    <lastmod>2024-04-11T08:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/tags/azure/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/macos/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tech-stack/my-personal-tech-stack/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/productivity/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/setapp/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tech/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech-stack/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tools/</loc>
+    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/new-beginnings/</loc>
     <lastmod>2024-04-11T08:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/notes/</loc>
@@ -137,16 +167,12 @@
   </url><url>
     <loc>http://localhost:1313/notes/bash/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/notes/go/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/go/_index.bn/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
     <priority>0.1</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/_index.bn/</loc>
   </url><url>

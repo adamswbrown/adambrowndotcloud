@@ -19,4 +19,25 @@
 .row:empty + hr,
 .row:has(> .share-buttons:only-child:has(> strong:only-child)) + hr {
   display: none !important;
-} 
+}
+
+#sidebar-section,
+.sidebar-section,
+#sidebar,
+.sidebar {
+  display: none !important;
+}
+
+/* Center the entire content on post pages */
+body.type-posts.kind-page .content-section {
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  box-sizing: border-box !important;
+}
+
+
+
+ 
