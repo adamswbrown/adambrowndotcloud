@@ -1,0 +1,13 @@
+<section class="sidebar-section" id="sidebar-section">
+  <button id="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
+  <div class="sidebar-holder">
+    <div class="sidebar" id="sidebar">
+      <form class="mx-auto" method="get" action="/search">
+        <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+      </form>
+      <div class="sidebar-tree">
+        {{ partial "sidebar-content.html" . }}
+      </div>
+    </div>
+  </div>
+</section> 
