@@ -2,7 +2,7 @@
 &lt;p>I&amp;rsquo;m Adam, and this blog exists for a reason that&amp;rsquo;s both personal and practical. I live with photosensitive epilepsy and dyspraxia. These conditions shape how I experience the world — sometimes in challenging ways, but often in ways that have given me unique perspectives, habits, and ways of working.&lt;/p>
 &lt;p>Professionally, I&amp;rsquo;ve built a career in technical consulting. I thrive in environments where I can solve complex problems, build systems that work for people, and translate technical detail into something meaningful. But it hasn&amp;rsquo;t always been easy to balance that with my own health needs. The truth is, living and working with invisible disabilities often means constantly negotiating boundaries, managing overstimulation, and finding workarounds that aren&amp;rsquo;t visible to others.&lt;/p></description></item><item><title/><link>https://adambrown.cloud/posts/netlify-redirects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/posts/netlify-redirects/</guid><description>&lt;p>—
 title: “Why I Use Netlify Redirects (and Not Hugo’s)”
-date: 2025-06-11T10:00:00Z
+date: 2025-05-11T10:00:00Z
 draft: false
 tags: [“netlify”, “redirects”, “hugo”, “calendly”]
 categories: [“Tech”, “Productivity”]
