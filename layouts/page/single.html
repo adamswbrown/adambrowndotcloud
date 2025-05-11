@@ -36,16 +36,16 @@
   <div class="content">
     <div class="container p-0 read-area">
 
- <!--Hero Area-->
-<div class="hero-area col-sm-12" id="hero-area" style='background-image: url({{ partial "helpers/get-hero.html" . }});'></div>
+      <!-- Hero Area -->
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url({{ partial "helpers/get-hero.html" . }});'></div>
 
-<!-- Content Start -->
-<div class="page-content">
+      <!-- Page Content -->
+      <div class="page-content">
 
-  <!-- Space and Title -->
-  <div class="container py-4">
-    <h1 class="page-title text-center">{{ .Page.Title }}</h1>
-  </div>
+        <!-- Title below hero -->
+        <div class="container py-4">
+          <h1 class="page-title text-center">{{ .Page.Title }}</h1>
+        </div>
 
         <!-- Tags (if enabled) -->
         {{ if site.Params.features.tags.enable }}
@@ -73,7 +73,7 @@
     </div>
   </div>
 
-  <!--scroll back to top-->
+  <!-- Scroll to top -->
   <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
     <i class="fas fa-chevron-circle-up"></i>
   </a>
