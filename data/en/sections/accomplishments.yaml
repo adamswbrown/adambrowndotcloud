@@ -21,7 +21,7 @@ accomplishments:
     organization:
       name: Microsoft
       url: https://learn.microsoft.com/en-us/certifications/azure-fundamentals/
-    courseOverview: Validates foundational knowledge of cloud services and how those services are provided with Microsoft Azure. Covers cloud concepts, core Azure services, security, privacy, compliance, and trust.
+    courseOverview: Validates foundational knowledge of cloud services and how those services, are provided with Microsoft Azure. Covers cloud concepts, core Azure services, security, privacy, compliance, and trust.
     certificateURL: "https://www.credly.com/badges/8fe0d64f-d24d-44b1-b875-123456abcdef"  # Replace with actual if you have it
 
   - name: Development of Assessment Automation Workflows

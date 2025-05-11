@@ -3,7 +3,7 @@ section:
   id: softskills
   enable: true
   weight: 2
-  showOnNavbar: false
+  showOnNavbar: true
   template: sections/softskills.html
 
 softskills:
