@@ -1,11 +1,11 @@
-—
+—--
 title: “What Remote Work Reveals About Inclusion for Neurodivergent People”
 date: 2025-05-11
 draft: true
 description: “Remote work has opened doors for many neurodivergent people—but true inclusion goes far beyond flexibility. Here’s what actually helps.”
 tags: [neurodiversity, remote work, burnout, accessibility, inclusion, autism, dyspraxia]
 hero: /images/blog/remote-inclusion-neurodivergent.jpg
-—
+—--
 
 **On a recent holiday, I finally had the space to slow down and process—a rare luxury in the rhythm of modern work.** While recharging (easier said than done), I found myself reflecting on what remote work really means for neurodivergent people like me. I’m autistic and dyspraxic, and full-time remote work has been transformative in many ways. It removes the sensory overwhelm of office spaces, reduces social masking, and gives me more control over my environment. But it also made one thing clear: the issue was never just *where* we work—it’s *how* we work, and who the systems are built for.
 
