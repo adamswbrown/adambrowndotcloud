@@ -1,7 +1,7 @@
 —
 title: “Why I Use Netlify Redirects (and Not Hugo’s)”
 date: 2025-05-11T10:00:00Z
-draft: false
+draft: true 
 hero: images/posts/netlify-redirects/hero.svg
 description: “How I simplified my personal site by switching from Hugo’s built-in aliases to Netlify redirects—and why it just works better.”
 theme: Toha
