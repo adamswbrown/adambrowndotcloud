@@ -43,6 +43,7 @@ HUGO_ENABLEGITINFO = "true"
   status = 301
   force = true
   
+[[redirects]]
   from = "/about/drmigrate"
   to = "https://calendly.com/d/crsy-9v5-m4y"
   status = 301
