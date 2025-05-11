@@ -41,8 +41,9 @@ Since I deploy my site using Netlify, I discovered a much cleaner and more power
   force = true
 ```
 
+
 I found out that each redirect needs the 
-```toml [[redirects]] ``` block, otherwise it won’t redirect.
+``` [[redirects]] ``` block, otherwise it won’t redirect.
 
 
 You just drop this at the end of your `netlify.toml`, commit, push—and it works.
