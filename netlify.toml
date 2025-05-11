@@ -36,3 +36,9 @@ command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --mini
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/book"
+  to = "https://calendly.com/d/crsy-9v5-m4y"
+  status = 301
+  force = true
