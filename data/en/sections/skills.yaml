@@ -1,10 +1,10 @@
 # section information
 section:
-  name: Skills
+  name: Technical Strengths
   id: skills
   enable: true
   weight: 3
-  showOnNavbar: true
+  showOnNavbar: false
   filter: true
 
 # filter buttons
