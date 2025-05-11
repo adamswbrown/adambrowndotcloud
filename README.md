@@ -17,7 +17,7 @@ This site is built using [Hugo](https://gohugo.io/) and the [Toha theme](https:/
 
 ## Features
 
-- **Blog**: Share your thoughts and articles.
+- **Blog**: Share your thoughts and articles
 - **Portfolio**: Showcase your projects and work.
 - **Notes**: A section for quick notes and documentation.
 - **Comments**: Enable comments on your posts using various services (e.g., Disqus, Giscus).
