@@ -41,6 +41,10 @@ Since I deploy my site using Netlify, I discovered a much cleaner and more power
   force = true
 ```
 
+I found out that each redirect needs the 
+```toml [[redirects]] ``` block, otherwise it won’t redirect.
+
+
 You just drop this at the end of your `netlify.toml`, commit, push—and it works.
 
 ### Why This Is Better
@@ -57,6 +61,7 @@ Now I use this method for:
 - `/book` → Calendly
 - `/github` → My GitHub profile
 - `/linkedin` → My LinkedIn
+- `about/drmigrate` → Calendly Routing Form
 - And more to come...
 
 It’s simple, effective, and makes it easier to share my links without remembering long URLs.
