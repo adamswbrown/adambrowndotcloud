@@ -208,9 +208,18 @@
 title: “Why I Use Netlify Redirects (and Not Hugo’s)”
 date: 2025-05-11T10:00:00Z
 draft: false
-tags: [“netlify”, “redirects”, “hugo”, “calendly”]
-categories: [“Tech”, “Productivity”]
-summary: “How I made my life easier by setting up external redirects in Netlify—and why Hugo’s built-in approach didn’t cut it.”
 hero: images/posts/netlify-redirects/hero.svg
-—&lt;/p>
-&lt;p>One of the most useful things I’ve done for my personal site recently is set up short, memorable URLs that redirect to the tools and platforms I use every day. For example, if you want to book a meeting with me, you can now just visit:&lt;/p></description></item><item><title>Go এর নোট সমূহ</title><link>https://adambrown.cloud/notes/go/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/go/_index.bn/</guid><description>&lt;h1 id="go-notes">Go Notes&lt;/h1></description></item><item><title>নোট সমূহ</title><link>https://adambrown.cloud/notes/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/_index.bn/</guid><description/></item><item><title>ব্যাশের নোট সমূহ</title><link>https://adambrown.cloud/notes/bash/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/bash/_index.bn/</guid><description>&lt;h1 id="bash-notes">Bash Notes&lt;/h1></description></item></channel></rss>
+description: “How I simplified my personal site by switching from Hugo’s built-in aliases to Netlify redirects—and why it just works better.”
+theme: Toha
+menu:
+sidebar:
+name: Netlify Redirects
+identifier: netlify-redirects
+weight: 20
+author:
+name: Adam Brown
+image: /images/author/adam.png
+image_alt: “A road sign pointing in multiple directions, representing flexible site navigation”
+tags: [“netlify”, “redirects”, “hugo”, “calendly”, “productivity”]
+categories: [“Tech”, “Productivity”]
+—&lt;/p></description></item><item><title>Go এর নোট সমূহ</title><link>https://adambrown.cloud/notes/go/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/go/_index.bn/</guid><description>&lt;h1 id="go-notes">Go Notes&lt;/h1></description></item><item><title>নোট সমূহ</title><link>https://adambrown.cloud/notes/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/_index.bn/</guid><description/></item><item><title>ব্যাশের নোট সমূহ</title><link>https://adambrown.cloud/notes/bash/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/bash/_index.bn/</guid><description>&lt;h1 id="bash-notes">Bash Notes&lt;/h1></description></item></channel></rss>
