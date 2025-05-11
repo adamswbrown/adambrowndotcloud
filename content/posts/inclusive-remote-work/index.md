@@ -2,7 +2,7 @@
 title: "What Remote Work Reveals About Inclusion for Neurodivergent People"
 date: 2025-05-11T10:00:00Z
 draft: true
-hero: images/posts/remote-inclusion-neurodivergent/hero.jpg
+hero: images/posts/remote-inclusion-neurodivergent/hero.svg
 description: "Remote work has opened doors for many neurodivergent people—but true inclusion goes far beyond flexibility. Here’s what actually helps."
 theme: Toha
 author:
