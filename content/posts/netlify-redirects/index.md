@@ -1,6 +1,6 @@
 —
 title: “Why I Use Netlify Redirects (and Not Hugo’s)”
-date: 2025-06-11T10:00:00Z
+date: 2025-05-11T10:00:00Z
 draft: false
 tags: [“netlify”, “redirects”, “hugo”, “calendly”]
 categories: [“Tech”, “Productivity”]
