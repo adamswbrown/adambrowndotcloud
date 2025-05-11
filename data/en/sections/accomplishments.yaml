@@ -1,0 +1,33 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: false
+  weight: 9
+  showOnNavbar: false
+
+# Your accomplishments
+accomplishments:
+  - name: FinOps Certified FOCUS Analyst
+    timeline: "2024"
+    organization:
+      name: FinOps Foundation
+      url: https://www.finops.org
+    courseOverview: This certification demonstrates the ability to analyze and act on complex cloud financial data using FinOps practices. It covers forecasting, anomaly detection, performance benchmarking, and advanced reporting for multi-cloud environments.
+    certificateURL: "https://www.credly.com/org/finops-foundation/badge/finops-certified-focus-analyst"
+
+  - name: Microsoft Certified Azure Fundamentals
+    timeline: "2023"
+    organization:
+      name: Microsoft
+      url: https://learn.microsoft.com/en-us/certifications/azure-fundamentals/
+    courseOverview: Validates foundational knowledge of cloud services and how those services, are provided with Microsoft Azure. Covers cloud concepts, core Azure services, security, privacy, compliance, and trust.
+    certificateURL: "https://www.credly.com/badges/8fe0d64f-d24d-44b1-b875-123456abcdef"  # Replace with actual if you have it
+
+  - name: Development of Assessment Automation Workflows
+    timeline: "2020 – Present"
+    organization:
+      name: Independent / Altra
+      url: ""
+    courseOverview: Designed and implemented automated assessment pipelines using n8n, Docker, Salesforce CLI, and APIs. Integrated Airtable and TickTick to streamline partner operations and reduce duplicate effort in reporting and follow-up.
+    certificateURL: ""

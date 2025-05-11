@@ -1,0 +1,100 @@
+# section information
+section:
+  name: Technical Strengths
+  id: skills
+  enable: true
+  weight: 3
+  showOnNavbar: false
+  filter: true
+
+# filter buttons
+buttons:
+  - name: All
+    filter: "all"
+  - name: Cloud
+    filter: "cloud"
+  - name: Automation
+    filter: "automation"
+  - name: Language
+    filter: "language"
+  - name: Tools
+    filter: "tools"
+  - name: Others
+    filter: "others"
+
+# Your Skills.
+skills:
+- name: Azure
+  logo: /images/sections/skills/azure.png
+  summary: "Extensive experience with Azure assessments, migrations, and FinOps optimization. Deep understanding of Azure billing, governance, and automation tooling."
+  categories: ["cloud"]
+  url: "https://azure.microsoft.com/"
+
+- name: AWS
+  logo: /images/sections/skills/aws.png
+  summary: "Delivered cloud strategy and migration support for AWS. Familiar with CUR, reserved instances, and AWS cost management practices."
+  categories: ["cloud"]
+  url: "https://aws.amazon.com/"
+
+- name: Google Cloud
+  logo: /images/sections/skills/gcp.png
+  summary: "Worked with GCP in assessment and cost modeling contexts. Familiar with SKU-level billing exports and cloud-native services."
+  categories: ["cloud"]
+  url: "https://cloud.google.com/"
+
+- name: PowerShell
+  logo: /images/sections/skills/powershell.png
+  summary: "Created powerful automation and diagnostic scripts, including domain controller reporting, network mapping, and SQL insights."
+  categories: ["language", "automation"]
+  url: "https://learn.microsoft.com/en-us/powershell/"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Used for scripting VM diagnostics, data processing, and automation in cloud and VMware environments."
+  categories: ["language", "automation"]
+  url: "https://www.python.org/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Used for local development, containerized workflows, and self-hosted tools like n8n. Built custom images for complex integrations."
+  categories: ["tools"]
+  url: "https://www.docker.com/"
+
+- name: n8n
+  logo: /images/sections/skills/n8n.png
+  summary: "Built custom automation pipelines using n8n, integrating Salesforce, TickTick, Airtable, and APIs. Extended functionality via Docker."
+  categories: ["automation"]
+  url: "https://n8n.io/"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with GitHub-based development. Used version control for scripts, shared workflows, and infrastructure-as-code."
+  categories: ["tools"]
+  url: "https://git-scm.com/"
+
+- name: FinOps
+  logo: /images/sections/skills/finops.png
+  summary: "Certified FinOps practitioner focused on cloud financial management. Delivered assessments and reporting at scale using billing exports and tooling."
+  categories: ["cloud", "others"]
+  url: "https://www.finops.org/"
+
+- name: SQL Server
+  logo: /images/sections/skills/sql.png
+  summary: "Worked with SQL Server environments in migration contexts. Integrated DMA insights and schema analysis into reporting pipelines."
+  categories: ["tools"]
+  url: "https://www.microsoft.com/en-us/sql-server"
+
+- name: Bash / Shell
+  logo: /images/sections/skills/linux.png
+  summary: "Written custom Linux scripts to collect system and network data during assessments. Familiar with deployment automation and CLI tools."
+  categories: ["language", "automation"]
+
+- name: Windows Server
+  logo: /images/sections/skills/windows.png
+  summary: "Managed Active Directory, Group Policy, DNS, DHCP, and SCCM across enterprise environments. Automated diagnostics and reporting in assessment contexts."
+  categories: ["tools", "others"]
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Experienced working across Linux server distributions. Created diagnostic tools, system scripts, and automation workflows in assessment and migration scenarios."
+  categories: ["tools", "others"]

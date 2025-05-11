@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Adam Brown&#39;s Cloud</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Adam Brown&#39;s Cloud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 May 2024 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>My Personal Tech Stack</title>
+      <link>http://localhost:1313/posts/tech-stack/my-personal-tech-stack/</link>
+      <pubDate>Fri, 10 May 2024 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/tech-stack/my-personal-tech-stack/</guid>
+      <description>A look at the tools I use every day to stay productive and solve problems across macOS and Microsoft ecosystems.</description>
+    </item>
+    
+    <item>
+      <title>New Beginnings</title>
+      <link>http://localhost:1313/posts/new-beginnings/</link>
+      <pubDate>Thu, 11 Apr 2024 08:00:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/new-beginnings/</guid>
+      <description>&lt;p&gt;Hi there - I&amp;rsquo;m glad you&amp;rsquo;ve found your way here.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m Adam, and this blog exists for a reason that&amp;rsquo;s both personal and practical. I live with photosensitive epilepsy and dyspraxia. These conditions shape how I experience the world — sometimes in challenging ways, but often in ways that have given me unique perspectives, habits, and ways of working.&lt;/p&gt;
+&lt;p&gt;Professionally, I&amp;rsquo;ve built a career in technical consulting. I thrive in environments where I can solve complex problems, build systems that work for people, and translate technical detail into something meaningful. But it hasn&amp;rsquo;t always been easy to balance that with my own health needs. The truth is, living and working with invisible disabilities often means constantly negotiating boundaries, managing overstimulation, and finding workarounds that aren&amp;rsquo;t visible to others.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

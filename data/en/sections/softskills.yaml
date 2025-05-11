@@ -1,0 +1,39 @@
+section:
+  name: Soft Strengths
+  id: softskills
+  enable: true
+  weight: 2
+  showOnNavbar: false
+  template: sections/softskills.html
+
+softskills:
+  - type: soft-skill-indicator
+    name: Problem Solving
+    percentage: 94
+    color: green
+
+  - type: soft-skill-indicator
+    name: Stakeholder Communication
+    percentage: 90
+    color: green
+
+  - type: soft-skill-indicator
+    name: Adaptability
+    percentage: 88
+    color: green
+
+  - type: soft-skill-indicator
+    name: Strategic Thinking
+    percentage: 87
+    color: green
+
+  - type: soft-skill-indicator
+    name: Collaboration
+    percentage: 85
+    color: blue
+
+
+  - type: soft-skill-indicator
+    name: Customer Focus
+    percentage: 92
+    color: green
