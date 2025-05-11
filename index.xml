@@ -205,6 +205,9 @@
 &lt;/div>
 &lt;/div>
 &lt;/div></description></item><item><title/><link>https://adambrown.cloud/book/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/book/</guid><description>&lt;p>—
-type: redirect
-target: &lt;a href="https://calendly.com/d/crsy-9v5-m4y" target="_blank" rel="noopener">https://calendly.com/d/crsy-9v5-m4y&lt;/a>
-—&lt;/p></description></item><item><title>Go এর নোট সমূহ</title><link>https://adambrown.cloud/notes/go/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/go/_index.bn/</guid><description>&lt;h1 id="go-notes">Go Notes&lt;/h1></description></item><item><title>নোট সমূহ</title><link>https://adambrown.cloud/notes/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/_index.bn/</guid><description/></item><item><title>ব্যাশের নোট সমূহ</title><link>https://adambrown.cloud/notes/bash/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/bash/_index.bn/</guid><description>&lt;h1 id="bash-notes">Bash Notes&lt;/h1></description></item></channel></rss>
+type: page
+—&lt;/p>
+&lt;p>&amp;lt;!— Calendly inline widget begin —&amp;gt;&lt;/p>
+&lt;div class=“calendly-inline-widget” data-url=“https://calendly.com/d/crsy-9v5-m4y?hide_gdpr_banner=1” style=“min-width:320px;height:700px;”>&lt;/div>
+&lt;script type=“text/javascript” src=“https://assets.calendly.com/assets/external/widget.js” async>&lt;/script>
+&lt;!— Calendly inline widget end —></description></item><item><title>Go এর নোট সমূহ</title><link>https://adambrown.cloud/notes/go/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/go/_index.bn/</guid><description>&lt;h1 id="go-notes">Go Notes&lt;/h1></description></item><item><title>নোট সমূহ</title><link>https://adambrown.cloud/notes/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/_index.bn/</guid><description/></item><item><title>ব্যাশের নোট সমূহ</title><link>https://adambrown.cloud/notes/bash/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/bash/_index.bn/</guid><description>&lt;h1 id="bash-notes">Bash Notes&lt;/h1></description></item></channel></rss>
