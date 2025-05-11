@@ -38,6 +38,30 @@ body.type-posts.kind-page .content-section {
   box-sizing: border-box !important;
 }
 
+.circular-progress {
+  width: 150px !important;
+  height: 150px !important;
+  min-width: 150px !important;
+  min-height: 150px !important;
+  font-size: 0.95rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
+.circular-progress-value {
+  font-size: 0.75rem !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  text-align: center !important;
+  line-height: 1.2 !important;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.softskills-row {
+  gap: 62px;
+}
 
  
