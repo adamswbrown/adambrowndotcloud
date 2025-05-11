@@ -1,0 +1,36 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+  {{ $sectionID = .section.id }}
+{{ end }}
+
+<div class="container anchor p-lg-5 about-section" id="{{ $sectionID }}">
+<h3 class="text-center mb-2">My Soft Skills</h3>
+  <p class="text-center mb-4">These are the key skills I bring to every project and team.</p>
+  <div class="row justify-content-center softskills-row">
+    {{ range .softskills }}
+      <div class="p-2" style="flex: 0 0 auto; width: 150px;">
+        {{ $predefinedColor := true }}
+        {{ if hasPrefix .color "#" }}
+          {{ $predefinedColor = false }}
+        {{ end }}
+        {{ $leftProgress := 0 }}
+        {{ $rightProgress := .percentage }}
+        {{ if ge .percentage 50 }}
+          {{ $rightProgress = 50 }}
+          {{ $leftProgress = sub .percentage 50 }}
+        {{ end }}
+        <div class="circular-progress {{if $predefinedColor}}{{ .color }}{{end}}">
+          <span class="circular-progress-left">
+            <span
+              class="circular-progress-bar circular-progress-percentage-{{ $leftProgress }}  circular-progress-percentage-50-delay" {{ if not $predefinedColor }}style="border-color: {{.color}};"{{ end }}></span>
+          </span>
+          <span class="circular-progress-right">
+            <span
+              class="circular-progress-bar circular-progress-percentage-{{ $rightProgress }}" {{ if not $predefinedColor }}style="border-color: {{.color}};"{{ end }}></span>
+          </span>
+          <div class="circular-progress-value">{{ .name }}</div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
