@@ -27,7 +27,7 @@ As someone who works primarily in a Microsoft environment but lives on a Mac, I'
 ## ☁️ Cloud & Infrastructure
 
 - 🌐 **[Azure Portal](https://portal.azure.com/)** – Where most of my hands-on work happens, managing cloud infrastructure and resources.
-- 🧪 **[Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)** – My preferred way to interact with Azure services programmatically and efficiently.
+- 🧪 **[Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)** – My preferred way to interact with Azure services programmatically and efficiently. 
 - 🔧 **[Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli)** – Occasionally used for integrations and automations tied to Salesforce environments.
 
 ---
