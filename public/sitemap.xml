@@ -165,6 +165,8 @@
     <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/book/</loc>
+  </url><url>
     <loc>http://localhost:1313/notes/bash/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/go/</loc>

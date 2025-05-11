@@ -8,4 +8,10 @@
    ]
   }
  }
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["./assets/*"]
+    }
+  }
 }
