@@ -36,16 +36,16 @@
   <div class="content">
     <div class="container p-0 read-area">
 
-      <!--Hero Area-->
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url({{ partial "helpers/get-hero.html" . }});'></div>
+ <!--Hero Area-->
+<div class="hero-area col-sm-12" id="hero-area" style='background-image: url({{ partial "helpers/get-hero.html" . }});'></div>
 
-      <!--Content Start-->
-      <div class="page-content">
+<!-- Content Start -->
+<div class="page-content">
 
-        <!-- Title -->
-        <div class="title">
-          <h1>{{ .Page.Title }}</h1>
-        </div>
+  <!-- Space and Title -->
+  <div class="container py-4">
+    <h1 class="page-title text-center">{{ .Page.Title }}</h1>
+  </div>
 
         <!-- Tags (if enabled) -->
         {{ if site.Params.features.tags.enable }}
