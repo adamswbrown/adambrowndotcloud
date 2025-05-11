@@ -30,7 +30,7 @@ softskills:
   - type: soft-skill-indicator
     name: Collaboration
     percentage: 85
-    color: green
+    color: blue
 
 
   - type: soft-skill-indicator
