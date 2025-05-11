@@ -3,19 +3,15 @@
 &lt;p>Professionally, I&amp;rsquo;ve built a career in technical consulting. I thrive in environments where I can solve complex problems, build systems that work for people, and translate technical detail into something meaningful. But it hasn&amp;rsquo;t always been easy to balance that with my own health needs. The truth is, living and working with invisible disabilities often means constantly negotiating boundaries, managing overstimulation, and finding workarounds that aren&amp;rsquo;t visible to others.&lt;/p></description></item><item><title/><link>https://adambrown.cloud/posts/netlify-redirects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/posts/netlify-redirects/</guid><description>&lt;p>—
 title: “Why I Use Netlify Redirects (and Not Hugo’s)”
 date: 2025-05-11T10:00:00Z
-draft: true
+draft: false
 hero: images/posts/netlify-redirects/hero.svg
 description: “How I simplified my personal site by switching from Hugo’s built-in aliases to Netlify redirects—and why it just works better.”
 theme: Toha
-menu:
-sidebar:
-name: Netlify Redirects
-identifier: netlify-redirects
-weight: 20
 author:
 name: Adam Brown
 image: /images/author/adam.png
-image_alt: “A road sign pointing in multiple directions, representing flexible site navigation”
+image_alt: “A clean web route sign symbolizing flexible site navigation and modern workflows”
 tags: [“netlify”, “redirects”, “hugo”, “calendly”, “productivity”]
-categories: [“Tech”, “Productivity”]
-—&lt;/p></description></item></channel></rss>
+categories: [“Productivity”, “Tech”]
+—&lt;/p>
+&lt;p>One of the most useful things I’ve done for my personal site recently is set up short, memorable URLs that redirect to the tools and platforms I use every day. For example, if you want to book a meeting with me, you can now just visit:&lt;/p></description></item></channel></rss>

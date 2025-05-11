@@ -9,21 +9,16 @@
 </a><a class="dropdown-item nav-link" href=# data-scheme=system><img class=theme-icon src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts/ data-filter=all>Posts</a></li><div class=subtree><li><a class=list-link href=/posts/new-beginnings/ title="New Beginnings">New Beginnings</a></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/images/default-hero.jpg)></div><div class=page-content><div class="author-profile ms-auto align-self-lg-center"><img class=rounded-circle src=/images/author/adam_hu_d2637b23587b071c.png alt="Author Image"><h5 class=author-name>Adam Brown</h5><p class=text-muted>Monday, January 1, 1 | 3 minutes</p></div><div class=title><h1></h1></div><div class=tags><ul style=padding-left:0></ul></div><div class=post-content id=post-content><p>—
 title: “Why I Use Netlify Redirects (and Not Hugo’s)”
 date: 2025-05-11T10:00:00Z
-draft: true
+draft: false
 hero: images/posts/netlify-redirects/hero.svg
 description: “How I simplified my personal site by switching from Hugo’s built-in aliases to Netlify redirects—and why it just works better.”
 theme: Toha
-menu:
-sidebar:
-name: Netlify Redirects
-identifier: netlify-redirects
-weight: 20
 author:
 name: Adam Brown
 image: /images/author/adam.png
-image_alt: “A road sign pointing in multiple directions, representing flexible site navigation”
+image_alt: “A clean web route sign symbolizing flexible site navigation and modern workflows”
 tags: [“netlify”, “redirects”, “hugo”, “calendly”, “productivity”]
-categories: [“Tech”, “Productivity”]
+categories: [“Productivity”, “Tech”]
 —</p><p>One of the most useful things I’ve done for my personal site recently is set up short, memorable URLs that redirect to the tools and platforms I use every day. For example, if you want to book a meeting with me, you can now just visit:</p><pre tabindex=0><code>/book
 </code></pre><p>…which will redirect you to my <a href=https://calendly.com/d/crsy-9v5-m4y target=_blank rel=noopener>Calendly page</a>.</p><h3 id=the-problem-with-hugo-redirects>The Problem with Hugo Redirects</h3><p>At first, I tried to use Hugo’s built-in redirect system. Hugo supports redirects through a combination of page front matter and generated <code>aliases</code>, but I ran into a couple of issues:</p><ul><li><strong>They don’t support external URLs</strong> — Hugo’s redirect aliases are primarily for internal page changes (like old URLs pointing to new ones). You can’t just say “take <code>/book</code> and go to Calendly.”</li><li><strong>They generate HTML files</strong> — Each redirect creates an HTML file with a meta refresh tag and JavaScript, which feels clunky and slow for something as simple as a redirect.</li><li><strong>Hard to manage</strong> — There’s no centralized way to manage a bunch of redirects across the site. It felt scattered and fragile.</li></ul><h3 id=enter-netlify-redirects-via-netlifytoml>Enter: Netlify Redirects via <code>netlify.toml</code></h3><p>Since I deploy my site using Netlify, I discovered a much cleaner and more powerful alternative: defining redirect rules directly in my <code>netlify.toml</code> file. It looks something like this:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml><span style=display:flex><span>[[<span style=color:#a6e22e>redirects</span>]]
 </span></span><span style=display:flex><span>  <span style=color:#a6e22e>from</span> = <span style=color:#960050;background-color:#1e0010>“/</span><span style=color:#a6e22e>book</span><span style=color:#960050;background-color:#1e0010>”</span>
