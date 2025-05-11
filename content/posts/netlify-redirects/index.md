@@ -1,17 +1,17 @@
-—
-title: “Why I Use Netlify Redirects (and Not Hugo’s)”
+---
+title: "Why I Use Netlify Redirects (and Not Hugo's)"
 date: 2025-05-11T10:00:00Z
 draft: false
 hero: images/posts/netlify-redirects/hero.svg
-description: “How I simplified my personal site by switching from Hugo’s built-in aliases to Netlify redirects—and why it just works better.”
+description: "How I simplified my personal site by switching from Hugo's built-in aliases to Netlify redirects—and why it just works better."
 theme: Toha
 author:
   name: Adam Brown
   image: /images/author/adam.png
-image_alt: “A clean web route sign symbolizing flexible site navigation and modern workflows”
-tags: [“netlify”, “redirects”, “hugo”, “calendly”, “productivity”]
-categories: [“Productivity”, “Tech”]
-—
+image_alt: "A clean web route sign symbolizing flexible site navigation and modern workflows"
+tags: ["netlify", "redirects", "hugo", "calendly", "productivity"]
+categories: ["Productivity", "Tech"]
+---
 
 One of the most useful things I’ve done for my personal site recently is set up short, memorable URLs that redirect to the tools and platforms I use every day. For example, if you want to book a meeting with me, you can now just visit:
 
