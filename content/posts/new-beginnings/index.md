@@ -13,6 +13,8 @@ author:
   name: Adam Brown
   image: /images/author/adam.png
 image_alt: "A path leading into a misty forest, symbolizing new beginnings and personal journey"
+tags: ["personal", "disability", "tech", "career", "epilepsy", "dyspraxia"]
+categories: ["Personal Journey", "Tech Career"]
 ---
 
 Hi there - I'm glad you've found your way here.

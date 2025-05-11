@@ -91,7 +91,7 @@ params:
 
     # Enable and configure portfolio
     portfolio:
-      enable: true
+      enable: false
 
     # Enable and configure blog posts
     blog:
@@ -187,7 +187,7 @@ params:
 
     # Show tags under the post title
     tags:
-      enable: false
+      enable: true
       on_card: true # enables tags in post cards
 
     # Specify whether to show flag in the language selector. Default is true.

@@ -1,2 +1,26 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Node modules
 node_modules
+
 .github/.DS_Store
+assets/.DS_Store
+assets/images/.DS_Store
+categories/.DS_Store
+content/.DS_Store
+content/notes/.DS_Store
+data/.DS_Store
+flags/.DS_Store
+images/.DS_Store
+images/posts/.DS_Store
+layouts/.DS_Store
+layouts/partials/.DS_Store
+notes/.DS_Store
+notes/bash/.DS_Store
+notes/go/.DS_Store
+notes/page/.DS_Store
+posts/.DS_Store
+posts/category/.DS_Store
+
