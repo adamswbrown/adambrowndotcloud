@@ -13,7 +13,7 @@ This is the source code for my personal website, built with Hugo and the Toha th
 
 ## Overview
 
-This site is built using [Hugo](https://gohugo.io/) and the [Toha theme](https://github.com/hugo-toha/toha). It includes various features such as a blog, portfolio, and notes section, all of which can be configured via the `hugo.yaml` file.
+This site is built using [Hugo](https://gohugo.io/) and the [Toha theme](https://github.com/hugo-toha/toha). It includes various features such as a blog, portfolio, and notes section, all of which can be configured via the `hugo.yaml` file
 
 ## Features
 
