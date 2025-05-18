@@ -1,4 +1,4 @@
-—
+--—
 title: “Hallowed Be Your Name”
 date: 2025-05-19T10:00:00Z
 draft: true
@@ -11,4 +11,4 @@ author:
 image_alt: “An open Bible highlighting Luke 11 and the Lord’s Prayer”
 tags: [“sermon notes”, “faith”, “church”, “Luke”, “prayer”]
 categories: [“Faith”, “Sermons”]
-——
+---
