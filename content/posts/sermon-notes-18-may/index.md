@@ -5,6 +5,11 @@ draft: false
 hero: /images/posts/18-may-sermon-notes/sermon-notes.svg
 description: "Sermon notes from a series in Luke’s Gospel, focusing on what it means to 'hallow' God’s Name and live it out daily."
 theme: Toha
+menu:
+  sidebar:
+    name: Hallowed Be Your Name
+    identifier: hallowed-be-your-name
+    weight: 20
 author:
   name: Adam Brown
   image: /images/author/adam.png
