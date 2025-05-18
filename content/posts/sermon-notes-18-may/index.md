@@ -1,5 +1,5 @@
 ---
-title: "Hallowed Be Your Name"
+title: "Sermon Notes May 18 - Hallowed Be Your Name"
 date: 2025-05-19T10:00:00Z
 draft: false
 summary: "Sermon reflections on the Lord’s Prayer from Luke 11—exploring what it means to truly 'hallow' God’s name in our lives."
