@@ -4,4 +4,17 @@
 &lt;h3 id="the-problem-with-hugo-redirects">The Problem with Hugo Redirects&lt;/h3>
 &lt;p>At first, I tried to use Hugo’s built-in redirect system. Hugo supports redirects through a combination of page front matter and generated &lt;code>aliases&lt;/code>, but I ran into a couple of issues:&lt;/p></description></item><item><title>My Personal Tech Stack</title><link>https://adambrown.cloud/posts/tech-stack/my-personal-tech-stack/</link><pubDate>Fri, 10 May 2024 12:00:00 +0000</pubDate><guid>https://adambrown.cloud/posts/tech-stack/my-personal-tech-stack/</guid><description>A look at the tools I use every day to stay productive and solve problems across macOS and Microsoft ecosystems.</description></item><item><title>New Beginnings</title><link>https://adambrown.cloud/posts/new-beginnings/</link><pubDate>Thu, 11 Apr 2024 08:00:00 -0700</pubDate><guid>https://adambrown.cloud/posts/new-beginnings/</guid><description>&lt;p>Hi there - I&amp;rsquo;m glad you&amp;rsquo;ve found your way here.&lt;/p>
 &lt;p>I&amp;rsquo;m Adam, and this blog exists for a reason that&amp;rsquo;s both personal and practical. I live with photosensitive epilepsy and dyspraxia. These conditions shape how I experience the world — sometimes in challenging ways, but often in ways that have given me unique perspectives, habits, and ways of working.&lt;/p>
-&lt;p>Professionally, I&amp;rsquo;ve built a career in technical consulting. I thrive in environments where I can solve complex problems, build systems that work for people, and translate technical detail into something meaningful. But it hasn&amp;rsquo;t always been easy to balance that with my own health needs. The truth is, living and working with invisible disabilities often means constantly negotiating boundaries, managing overstimulation, and finding workarounds that aren&amp;rsquo;t visible to others.&lt;/p></description></item></channel></rss>
+&lt;p>Professionally, I&amp;rsquo;ve built a career in technical consulting. I thrive in environments where I can solve complex problems, build systems that work for people, and translate technical detail into something meaningful. But it hasn&amp;rsquo;t always been easy to balance that with my own health needs. The truth is, living and working with invisible disabilities often means constantly negotiating boundaries, managing overstimulation, and finding workarounds that aren&amp;rsquo;t visible to others.&lt;/p></description></item><item><title/><link>https://adambrown.cloud/posts/sermon-notes-18-may/hallowed-be-your-name/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/posts/sermon-notes-18-may/hallowed-be-your-name/</guid><description>&lt;p>—
+title: “Hallowed Be Your Name”
+date: 2025-05-19T10:00:00Z
+draft: true
+hero: images/posts/hallowed-be-your-name/hero.jpg
+description: “Sermon notes from a series in Luke’s Gospel, focusing on what it means to ‘hallow’ God’s Name and live it out daily.”
+theme: Toha
+author:
+name: Adam Brown
+image: /images/author/adam.png
+image_alt: “An open Bible highlighting Luke 11 and the Lord’s Prayer”
+tags: [“sermon notes”, “faith”, “church”, “Luke”, “prayer”]
+categories: [“Faith”, “Sermons”]
+——&lt;/p></description></item></channel></rss>
