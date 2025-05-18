@@ -9,7 +9,7 @@ menu:
   sidebar:
     name: Hallowed Be Your Name
     identifier: hallowed-be-your-name
-    weight: 20
+    weight: 30
 author:
   name: Adam Brown
   image: /images/author/adam.png
