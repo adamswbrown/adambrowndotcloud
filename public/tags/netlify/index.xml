@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netlify on Adam Brown&#39;s Cloud</title>
+    <link>http://localhost:1313/tags/netlify/</link>
+    <description>Recent content in Netlify on Adam Brown&#39;s Cloud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 May 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/netlify/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Why I Use Netlify Redirects (and Not Hugo&#39;s)</title>
+      <link>http://localhost:1313/posts/netlify-redirects/</link>
+      <pubDate>Sun, 11 May 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/netlify-redirects/</guid>
+      <description>&lt;p&gt;One of the most useful things I’ve done for my personal site recently is set up short, memorable URLs that redirect to the tools and platforms I use every day. For example, if you want to book a meeting with me, you can now just visit:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/book
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;…which will redirect you to my &lt;a href=&#34;https://calendly.com/d/crsy-9v5-m4y&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Calendly page&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;the-problem-with-hugo-redirects&#34;&gt;The Problem with Hugo Redirects&lt;/h3&gt;
+&lt;p&gt;At first, I tried to use Hugo’s built-in redirect system. Hugo supports redirects through a combination of page front matter and generated &lt;code&gt;aliases&lt;/code&gt;, but I ran into a couple of issues:&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

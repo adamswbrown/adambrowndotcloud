@@ -6,13 +6,54 @@
     <description>Recent content on Adam Brown&#39;s Cloud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 May 2024 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sun, 11 May 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>What Remote Work Reveals About Inclusion for Neurodivergent People</title>
+      <link>http://localhost:1313/posts/inclusive-remote-work/</link>
+      <pubDate>Sun, 11 May 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/inclusive-remote-work/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;On a recent holiday, I finally had the space to slow down and process—a rare luxury in the rhythm of modern work.&lt;/strong&gt; While recharging (easier said than done, for me at least!), I was reflecting on what remote work really means for neurodivergent people like me. I’m autistic and dyspraxic, and full-time remote work has been transformative in many ways. It removes the sensory overwhelm of office spaces, reduces social masking, and gives me more control over my environment. But it also made one thing clear: the issue was never just &lt;em&gt;where&lt;/em&gt; we work—it’s &lt;em&gt;how&lt;/em&gt; we work, and who the systems are built for.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why I Use Netlify Redirects (and Not Hugo&#39;s)</title>
+      <link>http://localhost:1313/posts/netlify-redirects/</link>
+      <pubDate>Sun, 11 May 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/netlify-redirects/</guid>
+      <description>&lt;p&gt;One of the most useful things I’ve done for my personal site recently is set up short, memorable URLs that redirect to the tools and platforms I use every day. For example, if you want to book a meeting with me, you can now just visit:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/book
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;…which will redirect you to my &lt;a href=&#34;https://calendly.com/d/crsy-9v5-m4y&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Calendly page&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;the-problem-with-hugo-redirects&#34;&gt;The Problem with Hugo Redirects&lt;/h3&gt;
+&lt;p&gt;At first, I tried to use Hugo’s built-in redirect system. Hugo supports redirects through a combination of page front matter and generated &lt;code&gt;aliases&lt;/code&gt;, but I ran into a couple of issues:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Now</title>
+      <link>http://localhost:1313/now/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/now/</guid>
+      <description>&lt;p&gt;I’m currently focused on:&lt;/p&gt;
+&lt;p&gt;test&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>My Personal Tech Stack</title>
       <link>http://localhost:1313/posts/tech-stack/my-personal-tech-stack/</link>
       <pubDate>Fri, 10 May 2024 12:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/tech-stack/my-personal-tech-stack/</guid>
       <description>A look at the tools I use every day to stay productive and solve problems across macOS and Microsoft ecosystems.</description>
+    </item>
+    
+    <item>
+      <title>Sermon Notes - 18 May - Hallowed be your Name</title>
+      <link>http://localhost:1313/posts/sermon-notes-18-may/</link>
+      <pubDate>Mon, 15 Apr 2024 07:10:32 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/sermon-notes-18-may/</guid>
+      <description>&lt;p&gt;Faith is an important part of my life, and at its core, trying to understand how things plug together is another key part of what makes me &lt;em&gt;me&lt;/em&gt;. As part of that, I&amp;rsquo;ll be sharing sermon notes here from time to time&amp;ndash;simple reflections and takeaways from the Sunday messages at &lt;a href=&#34;https://standrewsbangor.org.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;St Andrew&amp;rsquo;s Presbyterian Church, Bangor&lt;/a&gt;. I hope they&amp;rsquo;ll be an encouragement and a way for me to think aloud as I follow Jesus.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -350,20 +391,6 @@
         
     &lt;/div&gt;
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/book/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/book/</guid>
-      <description>&lt;p&gt;——
-title: “Book”
-type: “page”
-url: “/book”
-——&lt;/p&gt;
-&lt;p&gt;Your text content goes here.&lt;/p&gt;</description>
     </item>
     
     <item>

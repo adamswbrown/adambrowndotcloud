@@ -121,12 +121,75 @@
     <priority>0.1</priority>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/azure/</loc>
-    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-05-19T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/accessibility/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/autism/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/burnout/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/calendly/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dyspraxia/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/inclusion/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/netlify/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/neurodiversity/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/neurodiversity/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/productivity/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/productivity/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/redirects/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/remote-work/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tech/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/inclusive-remote-work/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/netlify-redirects/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/work-culture/</loc>
+    <lastmod>2025-05-11T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/now/</loc>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/azure/</loc>
     <lastmod>2024-05-10T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/macos/</loc>
@@ -135,19 +198,7 @@
     <loc>http://localhost:1313/posts/tech-stack/my-personal-tech-stack/</loc>
     <lastmod>2024-05-10T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/productivity/</loc>
-    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/setapp/</loc>
-    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-05-10T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
     <lastmod>2024-05-10T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tech-stack/</loc>
@@ -156,7 +207,28 @@
     <loc>http://localhost:1313/tags/tools/</loc>
     <lastmod>2024-05-10T12:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/career/</loc>
+    <lastmod>2024-04-11T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/disability/</loc>
+    <lastmod>2024-04-11T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/epilepsy/</loc>
+    <lastmod>2024-04-11T08:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/new-beginnings/</loc>
+    <lastmod>2024-04-11T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/personal/</loc>
+    <lastmod>2024-04-11T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/personal-journey/</loc>
+    <lastmod>2024-04-11T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech/</loc>
+    <lastmod>2024-04-11T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tech-career/</loc>
     <lastmod>2024-04-11T08:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/notes/</loc>
@@ -164,8 +236,6 @@
   </url><url>
     <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/book/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/bash/</loc>
   </url><url>
