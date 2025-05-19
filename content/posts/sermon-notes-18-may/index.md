@@ -1,6 +1,6 @@
 ---
 title: "Sermon Notes - 18 May - Hallowed be your Name"
-date: 2024-04-15T07:10:32+01:00
+date: 2025-05-18T10:00:00Z
 draft: false
 hero: /images/posts/18-may-sermon-notes/sermon-notes.svg
 description: "Sermon notes from a series in Luke's Gospel, focusing on what it means to 'hallow' God's Name and live it out daily."
