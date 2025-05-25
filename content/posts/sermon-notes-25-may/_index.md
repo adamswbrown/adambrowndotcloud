@@ -5,11 +5,7 @@ draft: false
 hero: /images/posts/18-may-sermon-notes/sermon-notes.svg
 description: "Sermon notes from Luke 11 exploring what it means to pray 'Your Kingdom come, Your will be done'--and how that prayer reshapes our lives, hopes, and obedience."
 theme: Toha
-menu:
-  sidebar:
-    name: Your Kingdom Come, Your Will Be Done
-    identifier: your-kingdom-come-your-will-be-done
-    weight: 31
+
 author:
   name: Adam Brown
   image: /images/author/adam.png
