@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Why I Use Netlify Redirects (and Not Hugo&#39;s)</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.a303571ca8a01a2a8742dd10dfc1ae5e83f30f81431c4a2e1a3dcd5bde8f92ee.css" integrity="sha256-owNXHKigGiqHQt0Q38GuXoPzD4FDHEouGj3NW96Pku4=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu_a7920c91965714cb.png" />
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Adam&#39;s Cloud"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Portfolio and personal blog of Adam Brown"/>
+<meta property="og:image" content="/images/author/adam.png">
+<meta property="og:url" content="askadam.cloud">
+
+    
+<meta name="description" content="How I simplified my personal site by switching from Hugo&#39;s built-in aliases to Netlify redirects—and why it just works better." />
+
+
+
+    
+
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      Adam Brown&#39;s Cloud</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experience</a>
+                </li>
+              
+            
+            
+            
+            
+            
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+            
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
+        
+        
+            
+        
+        
+        
+          
+
+
+
+  
+  
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+  
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/new-beginnings/" title="New Beginnings">New Beginnings</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/adam_hu_d2637b23587b071c.png' alt="Author Image">
+          <h5 class="author-name">Adam Brown</h5>
+          <p class="text-muted">Sunday, May 11, 2025 | 2 minutes</p>
+        </div>
+        
+
+        <div class="title">
+          <h1>Why I Use Netlify Redirects (and Not Hugo&#39;s)</h1>
+        </div>
+
+        
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/netlify/" class="btn btn-sm btn-info">netlify</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/redirects/" class="btn btn-sm btn-info">redirects</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/hugo/" class="btn btn-sm btn-info">hugo</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/calendly/" class="btn btn-sm btn-info">calendly</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/productivity/" class="btn btn-sm btn-info">productivity</a></li>
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          <p>One of the most useful things I’ve done for my personal site recently is set up short, memorable URLs that redirect to the tools and platforms I use every day. For example, if you want to book a meeting with me, you can now just visit:</p>
+<pre tabindex="0"><code>/book
+</code></pre><p>…which will redirect you to my <a href="https://calendly.com/d/crsy-9v5-m4y" target="_blank" rel="noopener">Calendly page</a>.</p>
+<h3 id="the-problem-with-hugo-redirects">The Problem with Hugo Redirects</h3>
+<p>At first, I tried to use Hugo’s built-in redirect system. Hugo supports redirects through a combination of page front matter and generated <code>aliases</code>, but I ran into a couple of issues:</p>
+<ul>
+<li><strong>They don’t support external URLs</strong> — Hugo’s redirect aliases are primarily for internal page changes (like old URLs pointing to new ones). You can’t just say “take <code>/book</code> and go to Calendly.”</li>
+<li><strong>They generate HTML files</strong> — Each redirect creates an HTML file with a meta refresh tag and JavaScript, which feels clunky and slow for something as simple as a redirect.</li>
+<li><strong>Hard to manage</strong> — There’s no centralized way to manage a bunch of redirects across the site. It felt scattered and fragile.</li>
+</ul>
+<h3 id="enter-netlify-redirects-via-netlifytoml">Enter: Netlify Redirects via <code>netlify.toml</code></h3>
+<p>Since I deploy my site using Netlify, I discovered a much cleaner and more powerful alternative: defining redirect rules directly in my <code>netlify.toml</code> file. It looks something like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[[<span style="color:#a6e22e">redirects</span>]]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">from</span> = <span style="color:#960050;background-color:#1e0010">“/</span><span style="color:#a6e22e">book</span><span style="color:#960050;background-color:#1e0010">”</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">to</span> = <span style="color:#960050;background-color:#1e0010">“</span><span style="color:#a6e22e">https</span><span style="color:#960050;background-color:#1e0010">://</span><span style="color:#a6e22e">calendly</span>.<span style="color:#a6e22e">com</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">d</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">crsy-9v5-m4y</span><span style="color:#960050;background-color:#1e0010">”</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">status</span> = <span style="color:#ae81ff">301</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">force</span> = <span style="color:#66d9ef">true</span>
+</span></span></code></pre></div><p>I found out that each redirect needs the
+<code>[[redirects]]</code> block, otherwise it won’t redirect.</p>
+<p>You just drop this at the end of your <code>netlify.toml</code>, commit, push—and it works.</p>
+<h3 id="why-this-is-better">Why This Is Better</h3>
+<ul>
+<li><strong>Fast and clean</strong> — These redirects are handled by Netlify’s CDN edge nodes, so they’re instant and invisible.</li>
+<li><strong>Supports external URLs</strong> — Point anywhere you like, not just to content within your site.</li>
+<li><strong>Centralized and scalable</strong> — Manage all your redirects in one place with version control.</li>
+<li><strong>No HTML clutter</strong> — No need to generate placeholder HTML pages just to jump somewhere else.</li>
+</ul>
+<h3 id="my-use-case">My Use Case</h3>
+<p>Now I use this method for:</p>
+<ul>
+<li><code>/book</code> → Calendly</li>
+<li><code>/github</code> → My GitHub profile</li>
+<li><code>/linkedin</code> → My LinkedIn</li>
+<li><code>about/drmigrate</code> → Calendly Routing Form</li>
+<li>And more to come&hellip;</li>
+</ul>
+<p>It’s simple, effective, and makes it easier to share my links without remembering long URLs.</p>
+<p>—</p>
+<p>If you’re deploying a Hugo site on Netlify and struggling with Hugo’s redirects, I <em>highly</em> recommend switching to the <code>netlify.toml</code> approach. It’s flexible, intuitive, and just works.</p>
+<p>Let me know if you want to see my full Netlify config or need help setting yours up!</p>
+
+        </div>
+
+        
+        
+
+      
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/application.3e7e168618007ff3794391afa8698a87fea215f74850d4e14b2c7f3c6d7d00f1.js" integrity="sha256-Pn4WhhgAf/N5Q5GvqGmKh/6iFfdIUNThSyx/PG19APE=" defer></script>
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

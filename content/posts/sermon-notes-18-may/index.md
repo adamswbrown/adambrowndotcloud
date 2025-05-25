@@ -1,38 +1,32 @@
 ---
-title: "Hallowed Be Your Name"
-date: 2025-05-19T10:00:00Z
+title: "Sermon Notes - 18 May - Hallowed be your Name"
+date: 2025-05-18T10:00:00Z
 draft: false
 hero: /images/posts/18-may-sermon-notes/sermon-notes.svg
-description: "Sermon notes from a series in Luke’s Gospel, focusing on what it means to 'hallow' God’s Name and live it out daily."
+description: "Sermon notes from a series in Luke's Gospel, focusing on what it means to 'hallow' God's Name and live it out daily."
 theme: Toha
-menu:
-  sidebar:
-    name: Hallowed Be Your Name
-    identifier: hallowed-be-your-name
-    weight: 30
 author:
   name: Adam Brown
   image: /images/author/adam.png
-image_alt: "An open Bible highlighting Luke 11 and the Lord’s Prayer"
+image_alt: "An open Bible highlighting Luke 11 and the Lord's Prayer"
 tags: ["sermon notes", "faith", "church", "Luke", "prayer"]
 categories: ["Faith", "Sermons"]
 ---
 
-Faith is an important part of my life, and at its core, trying to understand how things plug together is another key part of what makes me *me*. As part of that, I’ll be sharing sermon notes here from time to time--simple reflections and takeaways from the Sunday messages at [St Andrew’s Presbyterian Church, Bangor](https://standrewsbangor.org.uk). I hope they’ll be an encouragement and a way for me to think aloud as I follow Jesus.
-
+Faith is an important part of my life, and at its core, trying to understand how things plug together is another key part of what makes me *me*. As part of that, I'll be sharing sermon notes here from time to time--simple reflections and takeaways from the Sunday messages at [St Andrew's Presbyterian Church, Bangor](https://standrewsbangor.org.uk). I hope they'll be an encouragement and a way for me to think aloud as I follow Jesus.
 
 # Hallowed Be Your Name: Learning to Pray Like Jesus
 
-As part of an ongoing series in Luke’s Gospel, this message turns to **Luke 11:1–13**, where Jesus begins teaching His disciples how to pray. The focus is on the first petition of the Lord’s Prayer: *"Hallowed be your name."* This short yet profound phrase sets the foundation for how followers of Jesus are to approach God--with reverence, awe, and the desire that His name be honored above all.
+As part of an ongoing series in Luke's Gospel, this message turns to **Luke 11:1–13**, where Jesus begins teaching His disciples how to pray. The focus is on the first petition of the Lord's Prayer: *"Hallowed be your name."* This short yet profound phrase sets the foundation for how followers of Jesus are to approach God--with reverence, awe, and the desire that His name be honored above all.
 
 
-The line is a **petition**, not a declaration. It’s a request that God would cause His name to be recognized as holy, treasured, and supremely valuable--in our hearts and in the hearts of all people. Names matter, the preacher explains. They shape identity, carry meaning, and reflect relationship. If this is true of our own names, how much more is it true of the name of God?
+The line is a **petition**, not a declaration. It's a request that God would cause His name to be recognized as holy, treasured, and supremely valuable--in our hearts and in the hearts of all people. Names matter, the preacher explains. They shape identity, carry meaning, and reflect relationship. If this is true of our own names, how much more is it true of the name of God?
 
-In Scripture, God’s name is a revelation of His character. It’s not a label; it is His nature, authority, and purpose wrapped into one. From Exodus to the Psalms, and ultimately through the life of Jesus, God reveals His name and invites His people to know and honor Him. Creation itself proclaims His majesty, drawing our hearts to worship and awe. The heavens declare His glory, and even from space, astronauts pause to marvel at the work of His hands.
+In Scripture, God's name is a revelation of His character. It's not a label; it is His nature, authority, and purpose wrapped into one. From Exodus to the Psalms, and ultimately through the life of Jesus, God reveals His name and invites His people to know and honor Him. Creation itself proclaims His majesty, drawing our hearts to worship and awe. The heavens declare His glory, and even from space, astronauts pause to marvel at the work of His hands.
 
-Jesus is the ultimate revelation of God’s name. His life, words, and actions perfectly reflect the Father. When we want to know what God is like, we look at Jesus. He not only taught us to pray *"Hallowed be your name"*--He lived it, even unto death. His whole life honored the Father’s name.
+Jesus is the ultimate revelation of God's name. His life, words, and actions perfectly reflect the Father. When we want to know what God is like, we look at Jesus. He not only taught us to pray *"Hallowed be your name"*--He lived it, even unto death. His whole life honored the Father's name.
 
-To **hallow** God’s name means to treat it as holy, distinct, and of supreme worth. This happens when we:  
+To **hallow** God's name means to treat it as holy, distinct, and of supreme worth. This happens when we:  
 - stand in awe of God,  
 - pursue personal holiness,  
 - speak of God with reverence,  
@@ -40,19 +34,19 @@ To **hallow** God’s name means to treat it as holy, distinct, and of supreme w
 - share His name with others, and  
 - live distinctively as His children in everyday life.
 
-This sermon challenges us to consider whether our lives reflect a deep desire for God’s name to be exalted. Do our prayers begin with God’s glory before our own needs? Do our words, worship, and witness cause others to see the beauty of who He is?
+This sermon challenges us to consider whether our lives reflect a deep desire for God's name to be exalted. Do our prayers begin with God's glory before our own needs? Do our words, worship, and witness cause others to see the beauty of who He is?
 
 Jesus shows us the way. And through the Holy Spirit, He gives us everything we need to live lives that truly hallow God's name.
 
 ---
 
 ## Key Points
-- The Lord’s Prayer begins with a request: *"Hallowed be your name."*
+- The Lord's Prayer begins with a request: *"Hallowed be your name."*
 - God's name is a reflection of His character, identity, and power.
 - God reveals His name through creation, Scripture, and most fully through Jesus.
-- To hallow God’s name is to regard it as holy and supremely valuable.
+- To hallow God's name is to regard it as holy and supremely valuable.
 - This reverence is expressed in awe, holiness, worship, speech, outreach, and daily living.
-- Jesus models perfect obedience in hallowing the Father’s name.
+- Jesus models perfect obedience in hallowing the Father's name.
 
 ---
 
@@ -60,7 +54,7 @@ Jesus shows us the way. And through the Holy Spirit, He gives us everything we n
 - Approach God in prayer with a desire for His name to be honored above all.
 - Let the beauty of creation and the truth of Scripture lead you to worship.
 - Speak about God with respect and care, mindful of the power of your words.
-- Examine your life for holiness and Christlike character that honors God’s name.
+- Examine your life for holiness and Christlike character that honors God's name.
 - Live each day as a worshipper--at work, in conversation, and through witness.
 
 ---
@@ -88,6 +82,6 @@ Jesus shows us the way. And through the Holy Spirit, He gives us everything we n
 ## Reflection Questions
 - What does it mean for you to truly pray, *"Hallowed be your name"*?
 - In what ways do you see God's name being revealed through creation or your life?
-- How might your speech and conversations better honor God’s name?
+- How might your speech and conversations better honor God's name?
 - Are there habits or attitudes you need to surrender to better reflect His holiness?
 - How can your everyday actions lead others to glorify God's name?
