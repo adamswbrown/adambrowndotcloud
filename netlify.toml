@@ -51,8 +51,9 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/admin"
-  to = "/admin/index.html"
-  status = 200
+  to = "/admin/"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/admin/*"
