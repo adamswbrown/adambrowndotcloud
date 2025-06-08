@@ -48,3 +48,14 @@ HUGO_ENABLEGITINFO = "true"
   to = "https://calendly.com/d/crsy-9v5-m4y"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200

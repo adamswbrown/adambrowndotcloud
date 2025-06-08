@@ -11,10 +11,9 @@
     <!--================= add analytics if enabled =========================-->
     {{- partial "analytics.html" . -}}
     {{ with resources.Get "scripts/core/theme-scheme.js" | fingerprint }}
-    <script integrity="{{.Data.Integrity}}">
-     {{ .Content | safeJS }}
-    </script>
+    <script integrity="{{ .Data.Integrity }}" src="{{ .RelPermalink }}"></script>
     {{ end }}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body class="type-{{ .Page.Type }} kind-{{ .Page.Kind }}" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
@@ -44,6 +43,18 @@
 
     <!------ IF WANTED, ADD SUPPORT LINKS -------->
     {{- partial "misc/support.html" . -}}
+
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
 
   </body>
 </html>
