@@ -118,5 +118,3 @@ Forgiveness is not easy. Forbearance is not natural. But both are possible by th
 > _"Forgive everyone for everything."_  
 Not because they deserve it.  
 Because Jesus did it first.
-
-Let me know if you’d like me to generate the .md file or assist in publishing it directly to your Hugo site.
