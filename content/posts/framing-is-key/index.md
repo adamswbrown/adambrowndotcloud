@@ -2,7 +2,7 @@
 title: "The Meeting Didn’t Fail — The Framing Did"
 date: 2026-01-05T10:00:00Z
 draft: false
-hero: images/posts/framing-not-failing/hero.svg
+hero: images/posts/new-beginnings/hero.svg
 description: "Most transformation conversations don’t fail because people disagree. They fail because everyone is answering a different question. Framing, structure, and listening matter more than speed."
 theme: Toha
 author:
