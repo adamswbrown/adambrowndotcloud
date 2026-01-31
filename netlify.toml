@@ -54,7 +54,12 @@ HUGO_ENABLEGITINFO = "true"
   to = "https://pattern-spectrum-576.notion.site/PoE-Cheat-Sheet-for-Azure-Accelerate-23cef850f293809295b3fd53ed8bb3f9"
   status = 301
   force = true
-
+  
+[[redirects]]
+  from = "/azrecommend"
+  to = "https://ca-azarch-recommender-prod.wonderfulbush-cf6d0a82.uksouth.azurecontainerapps.io"
+  status = 301
+  force = true
   
 
 [[redirects]]
