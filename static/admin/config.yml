@@ -1,30 +1,55 @@
-#static/admin/config.yml
-
 backend:
-  name: git-gateway
+  name: github
+  repo: adamswbrown/adambrowndotcloud
   branch: main
 
-media_folder: "static/images" # Folder where user uploaded files should go
-public_folder: "/images" # The src attribute for uploaded images
+media_folder: "static/images"
+public_folder: "/images"
 
 collections:
-  - name: "posts"
-    label: "Posts"
+  # Quick posts - minimal friction, just write
+  - name: "quick-posts"
+    label: "Quick Posts"
+    label_singular: "Quick Post"
     folder: "content/posts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # Creates page bundles: content/posts/{slug}/index.md
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    summary: "{{title}} ({{date | date('YYYY-MM-DD')}})"
+    sortable_fields: ["date", "title"]
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Hero Image", name: "hero", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Theme", name: "theme", widget: "string", default: "Toha"}
-      - {label: "Author", name: "author", widget: "object", fields: [
-          {label: "Name", name: "name", widget: "string"},
-          {label: "Image", name: "image", widget: "image"}
-        ]}
-      - {label: "Image Alt", name: "image_alt", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Description", name: "description", widget: "text", required: false, hint: "Optional — used for SEO and post listings"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # Full posts - for when you want the works
+  - name: "posts"
+    label: "Full Posts"
+    label_singular: "Full Post"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    summary: "{{title}} ({{date | date('YYYY-MM-DD')}})"
+    sortable_fields: ["date", "title"]
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Hero Image", name: "hero", widget: "image", required: false, hint: "Optional hero image for the post"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Theme", name: "theme", widget: "hidden", default: "Toha"}
+      - {label: "Author Name", name: "author_name", widget: "hidden", default: "Adam Brown"}
+      - {label: "Image Alt", name: "image_alt", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
