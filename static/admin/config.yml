@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: adamswbrown/adambrowndotcloud
   branch: main
 
 media_folder: "static/images"
