@@ -39,9 +39,11 @@ projects:
     repo: https://github.com/adamswbrown/bible-tour
     url: https://bible-tour.vercel.app
     post: /posts/building-bible-tour/
-  - name: adambrown.cloud
-    icon: fa-solid fa-globe
-    description: "This site. A Hugo static site using the Toha theme, deployed to both Netlify and GitHub Pages. Source is public if you want to see how it's wired together or steal any of the layouts."
-    tech: ["Hugo", "Go templates", "SCSS"]
-    repo: https://github.com/adamswbrown/adambrowndotcloud
+  - name: UK Food Facts
+    icon: fa-solid fa-burger
+    description: "A web app that scrapes nutrition data from 150+ restaurant chains across the UK, Ireland, Australia, and New Zealand. 2,700+ meals, searchable, sortable, colour-coded by calories. A GitHub Action runs daily, scrapes fresh data, commits, and Vercel auto-redeploys — no stale numbers, no manual updates."
+    tech: ["Python", "Playwright", "Flask", "GitHub Actions", "Vercel"]
+    repo: https://github.com/adamswbrown/ukfoodfacts
+    url: https://uk-calories.vercel.app
+    post: /posts/building-uk-food-facts/
 ---
