@@ -1,6 +1,6 @@
 ---
 title: "Agentic Coding Is the Consultant's Revolution"
-date: 2026-04-19T16:00:00Z
+date: 2026-04-19T10:00:00Z
 draft: false
 hero: images/posts/consultants-revolution/hero.svg
 description: "I'm a principal consultant, not a developer. I still ship software. Here's what agentic coding looks like when the person driving it cares more about outcomes than about the code."
