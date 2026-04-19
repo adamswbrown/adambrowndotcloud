@@ -1,7 +1,7 @@
 ---
 title: "Building Meeting Reminder: An ADHD-Focused Menu Bar App for macOS"
 date: 2026-04-10T10:00:00Z
-draft: true
+draft: false
 hero: images/posts/building-meeting-reminder/hero.svg
 description: "What started as a free alternative to In Your Face became an ADHD-focused meeting assistant with progressive alerts, Notion integration, and hybrid meeting-end detection."
 theme: Toha

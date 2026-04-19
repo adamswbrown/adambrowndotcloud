@@ -1,7 +1,7 @@
 ---
 title: "Building the Azure Architecture Recommender: From Assessment Data to Ranked Patterns"
 date: 2026-02-14T10:00:00Z
-draft: true
+draft: false
 hero: images/posts/building-azure-architecture-recommender/hero.svg
 description: "Turning Dr. Migrate assessment exports into ranked, explained matches against ~50 reference architectures from the Azure Architecture Center."
 theme: Toha

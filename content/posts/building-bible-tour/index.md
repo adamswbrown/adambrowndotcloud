@@ -1,7 +1,7 @@
 ---
 title: "Building Tour of the Bible: A 66-Book Reading Companion with No Backend"
 date: 2026-04-19T10:00:00Z
-draft: true
+draft: false
 hero: images/posts/building-bible-tour/hero.svg
 description: "A web companion for Matt Whitman's 'Lightning-Fast Field Guide to the Bible' — track your progress through all 66 books with curated verse references, no accounts, no database."
 theme: Toha

@@ -1,7 +1,7 @@
 ---
 title: "Service Generator: Building a ProPresenter Playlist From a PDF Service Order"
 date: 2026-03-24T10:00:00Z
-draft: true
+draft: false
 hero: images/posts/propresenter-service-generator/hero.svg
 description: "How Service Generator turns a Planning Center PDF into a fully-populated ProPresenter playlist in about two minutes — and the song-title fuzzy-matching problem that almost killed it."
 theme: Toha

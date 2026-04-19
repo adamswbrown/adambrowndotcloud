@@ -1,7 +1,7 @@
 ---
 title: "Building Azure Capacity Checker: Closing the Migration-Day Gap"
 date: 2026-03-02T10:00:00Z
-draft: true
+draft: false
 hero: images/posts/building-azure-capacity-checker/hero.svg
 description: "Rightsizing exports say a VM size is available. Azure on migration day sometimes disagrees. Here's the tool I built to find out which is lying — before you need the answer."
 theme: Toha
