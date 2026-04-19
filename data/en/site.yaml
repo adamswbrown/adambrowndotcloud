@@ -12,6 +12,10 @@ description: Portfolio and personal blog of Adam Brown
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
+- name: Projects
+  url: /projects/
+  hideFromNavbar: false
+  showOnFooter: true
 - name: Lets Talk
   url: https://toha-guides.netlify.app/posts/
   hideFromNavbar: true
