@@ -1,6 +1,6 @@
 ---
 title: "Building UK Food Facts: From 'How Many Calories in a Sausage Roll' to 2,700 Meals"
-date: 2026-03-20T10:00:00Z
+date: 2026-04-19T10:00:00Z
 draft: false
 hero: images/posts/building-uk-food-facts/hero.svg
 description: "I spent 20 minutes trying to find the calories in a Greggs sausage roll and ended up building a whole app."
