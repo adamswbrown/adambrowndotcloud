@@ -52,7 +52,7 @@ Create `content/posts/[slug]/index.md`:
 ```yaml
 ---
 title: "Post Title"
-date: 2026-01-31T10:00:00Z
+date: 2026-01-31T08:00:00Z
 draft: false
 hero: images/posts/[slug]/hero.svg
 description: "Short description for SEO and cards"
@@ -66,6 +66,8 @@ categories: ["Category"]
 
 Content goes here...
 ```
+
+**IMPORTANT — post date must be in the past at build time.** Hugo's `buildFuture` is unset (defaults to `false`), so any post dated even a minute in the future is silently dropped from the build. When publishing today, set the date to early-morning UTC (e.g. `T08:00:00Z`) — never the current time, and never round numbers like `T10:00:00Z` that risk being ahead of the build server. Both previous publishing incidents on this blog (commits `0ad2eb8` and `4267430`) were caused by this. If a post you just merged isn't appearing on the live site, this is the first thing to check.
 
 ### Hero Images
 
