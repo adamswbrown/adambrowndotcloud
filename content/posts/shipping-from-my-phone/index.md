@@ -1,6 +1,6 @@
 ---
 title: "Ten PRs Before Lunch, From My Phone"
-date: 2026-04-26T10:00:00Z
+date: 2026-04-26T08:00:00Z
 draft: false
 hero: images/posts/shipping-from-my-phone/hero.svg
 description: "Two hours, ten merged PRs, no editor. Just a phone, Claude Code, and the prompting habits that turn the model from a coder into a release engineer."
