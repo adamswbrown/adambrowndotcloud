@@ -16,15 +16,17 @@ summary: "Two hours, ten merged PRs, no editor. Just a phone, Claude Code, and t
 
 [Tour of the Bible](https://bible-tour.vercel.app) is a small web app that walks you through every book of the Bible in about ninety minutes. It's a side-project. I am not a frontend engineer. Every line of code in it has been written in conversational sessions with [Claude Code](https://claude.com/claude-code), and the `claude/...` branches scattered through the [git history](https://github.com/adamswbrown/bible-tour) are the receipts.
 
-This morning I shipped ten pull requests from my phone, in about two hours. Per-verse ESV audio across two surfaces of the app. ESV added as a reading translation. A UX fix for the Strong's word-study mode. A README rewrite. A CHANGELOG backfilled to the project's first commit. I never opened an editor.
+This morning I shipped ten pull requests from my phone, in about two hours, mostly from the kitchen between coffee refills. Per-verse ESV audio across two surfaces of the app. ESV added as a reading translation. A UX fix for the Strong's word-study mode. A README rewrite. A CHANGELOG backfilled to the project's first commit. I never opened an editor.
 
-The interesting part isn't *what* I shipped. It's how I prompted, and why prompting that way made phone-based shipping reasonable instead of ridiculous. Six habits. They matter more than any particular model or tool.
+I should be honest up front: this morning went unusually cleanly. Some sessions get knotted up and I have to reset the conversation and start the bit again. Today nothing got knotted. But the *prompting* was the same prompting I always do, and it's the prompting (more than the model, more than the tool) that makes phone-based shipping reasonable instead of ridiculous. Six habits. None of them are about typing faster.
 
 ## What is Claude actually doing here?
 
 Worth being explicit about who's doing what, because the honest answer changes how you prompt.
 
 I'm doing product direction, scope decisions, and UX taste. I'm the one who knows what's worth building and the one who eventually says "ship it". Claude is doing research, implementation, the mechanics of git and PRs and CI, and (when I let it) telling me what I'd be giving up before I commit to anything. I make the calls. Claude does the work and pushes back when I'm wrong. That's the whole contract, and the rest of this post falls out of it.
+
+Most of what I see go badly with these tools is people getting that boundary wrong in either direction: micromanaging implementation, or handing over the product decisions. Both feel productive in the moment. Neither ends well.
 
 ## 1. Talk first, code last
 
@@ -36,7 +38,7 @@ No spec. No solution. No file paths. Just a direction.
 
 Six words bought me a survey of every realistic option in the space. Bible Brain. API.Bible. The YouVersion developer API, which, as it turns out, has no audio endpoint at all (mild surprise, that one). The eBible.org public-domain WEB recordings. The [Zaxser/verse-timings](https://github.com/Zaxser/verse-timings) forced-alignment dataset. Crossway's ESV API. Each came back with licensing terms, rate limits, and a verdict.
 
-If I'd opened with *"Add audio playback using the YouVersion API"* I'd have spent half an hour discovering that the endpoint doesn't exist. Open prompts produce better research than narrow ones, because they give the model permission to disagree with your premise before it touches any code.
+If I'd opened with *"Add audio playback using the YouVersion API"* I'd have spent half an hour discovering that the endpoint doesn't exist, probably with a half-built proxy route already on the branch. Open prompts produce better research than narrow ones, because they give the model permission to disagree with your premise before it touches any code.
 
 The cheapest line of code is the one you decided not to write.
 
@@ -46,7 +48,7 @@ This is the prompt I get the most out of, and the wording matters, so I'll give 
 
 > *"Play devil's advocate around the idea of full translation support for the audio. If that's going to add a level of complexity I can't really support, convince me of my options."*
 
-I had a goal already. Per-verse audio playback that matched whichever translation the user had picked: NIV, NIrV, NIVUK, KJV, WEB, ASV. It felt right. It mirrored the existing text experience. I half-believed in it.
+I had a goal already. Per-verse audio playback that matched whichever translation the user had picked: NIV, NIrV, NIVUK, KJV, WEB, ASV. It felt right. It mirrored the existing text experience. I half-believed in it. Half-believing is the dangerous bit, because half-belief is enough to start building.
 
 Five points came back, and the goal collapsed in the time it took to read them.
 
@@ -62,7 +64,7 @@ The trick isn't asking the model to validate you. It's asking it to argue agains
 
 ## 3. Make "easy" a first-class requirement
 
-I asked for the *easiest* option three times this morning, not the best. That word does a lot of work.
+I asked for the *easiest* option three times this morning, not the best. "Easy" isn't a word engineers love. It feels like you're asking for the cheap version of the thing. But if you don't say it out loud, you don't get it.
 
 Ask for the *best* path and you get a menu. Ask for the *easiest* and you get a recommendation. The constraint forces an opinion.
 
@@ -92,13 +94,13 @@ Boiled down, the actual structure of a Claude proposal from this morning looked 
 
 I trust the implementation because the tradeoffs are named in advance. If they're hidden, I push back and ask for them.
 
-It's also how I catch over-engineering. If a proposal *doesn't* list any tradeoffs, that's usually a sign the model has reached for a heavier solution than the problem deserves. *"What does this give up?"* is a good follow-up when nothing has been volunteered.
+It's also how I catch over-engineering, which is honestly the failure mode I see most often with this stuff. If a proposal *doesn't* list any tradeoffs, the model has usually reached for a heavier solution than the problem deserves. Ask for an email; it proposes a queue. Ask for a form; it suggests an architecture. *"What does this give up?"* is a good follow-up when nothing has been volunteered.
 
 ## 5. Mobile-first orchestration
 
 I was on my phone all morning. No editor. No localhost. No `npm run dev`. I could read GitHub diffs in a tiny font and that was about it. So the loop had to look different from how most people use Claude.
 
-The strategy was continuous deployment plus aggressive delegation. Every PR Claude opened got merged to `main` immediately. Vercel rebuilt production within a minute. I tested on the live site, on my phone, after each merge. Real users were potentially hitting features I'd shipped sixty seconds earlier. That feels reckless until you remember the alternative is testing nothing at all.
+The strategy was continuous deployment plus aggressive delegation. Every PR Claude opened got merged to `main` immediately. Vercel rebuilt production within a minute. I tested on the live site, on my phone, after each merge. Real users were potentially hitting features I'd shipped sixty seconds earlier. That feels reckless, and there's a small wince every time. But the alternative on a phone is testing nothing at all, and I'd rather a real user catch a bug in a free side-project than ship a wall of unverified code at the end of the morning.
 
 This put Claude in a role most people don't ask it to play, which is release engineer. Branch from latest `main`. Commit with a sensible message. Push. Open a draft PR. Watch CI. Merge once green. Unsubscribe from the PR webhook. All autonomous. I'd authorise *"push to prod"* once and Claude would handle the mechanics every time afterwards.
 
@@ -108,7 +110,7 @@ Which means Claude wasn't just my pair-programmer in this setup. It was my CI da
 
 ## 6. Documentation as a deliverable
 
-I treat README and CHANGELOG updates as part of the feature, not a follow-up. Same-day docs are the only ones that ever happen on a side-project.
+I treat README and CHANGELOG updates as part of the feature, not a follow-up. Same-day docs are the only ones that ever happen on a side-project; everyone who has ever said "I'll come back and write that up later" is lying to themselves, and I include myself in that.
 
 This is also where AI assistants are unfairly good. They remember exactly what they just built. They have all the context. They will write the README change *better* than you would, because they're working from the implementation rather than from memory.
 
@@ -148,7 +150,9 @@ And let the model run the release loop. PRs, CI signals, merges, Vercel deploys;
 
 The thing I've come to believe, after a few months of building this way, is that building with AI doesn't really mean *automating the act of coding*. Anyone can prompt for code. It means automating the engineering loop *around* the coding (research, scoping, branching, CI, deploy, docs) so the only thing left for you to do is product judgement.
 
-I made decisions for two hours this morning. Claude turned each decision into a shipped PR. That ratio is the win, not the line count.
+That's also why phone-shipping works at all. You can't write code on a phone, but you can absolutely make decisions on a phone, and on a morning like this one, decisions are the only thing the work actually needs from me.
+
+I made decisions for two hours this morning. Claude turned each one into a shipped PR. That ratio is the win, not the line count.
 
 ---
 
