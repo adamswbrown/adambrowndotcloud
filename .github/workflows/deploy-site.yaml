@@ -13,9 +13,22 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v4
+
+    # On scheduled / manual runs, push an empty commit to main so
+    # Netlify (which only builds on push, not on cron) rebuilds too.
+    # GH Pages keeps building from this same workflow run.
+    - name: Trigger Netlify rebuild via empty commit
+      if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git commit --allow-empty -m "chore: scheduled rebuild for date-gated posts"
+        git push origin main
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
