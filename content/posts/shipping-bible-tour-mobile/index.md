@@ -104,7 +104,7 @@ A couple of hours to track down. Twenty minutes to fix.
 The first Apple submission got rejected on guideline 2.5.4: background audio mode declared but no audible content found. The reviewer hadn't found the play button. It lives inside a verse modal, only on the ESV translation, behind a translation pill switcher. Three taps deep. I didn't need to change the binary; I just needed to send step-by-step reproduction instructions and a screen recording through the Resolution Center. Approved on the next pass. The lesson there is that App Review is run by people, not robots, and people benefit from being told where to look.
 
 <figure style="margin:2rem auto;max-width:300px;">
-  <img src="verse_esv.png" alt="ESV verse view with audio playback controls" style="width:100%;border-radius:12px;border:1px solid rgba(0,0,0,0.1);" />
+  <img src="ios_verse_esv.png" alt="iOS ESV verse view with audio playback controls" style="width:100%;border-radius:12px;border:1px solid rgba(0,0,0,0.1);" />
   <figcaption style="font-size:0.85rem;text-align:center;opacity:0.7;margin-top:0.5rem;">The play button Apple's reviewer couldn't find — ESV translation, verse modal.</figcaption>
 </figure>
 
