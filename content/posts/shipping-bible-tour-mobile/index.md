@@ -2,7 +2,7 @@
 title: "A small app, two app stores, fourteen days"
 date: 2026-04-30T10:00:00Z
 draft: false
-hero: images/posts/shipping-bible-tour-mobile/hero.svg
+hero: images/posts/shipping-bible-tour-mobile/hero.png
 description: "Shipping Tour of the Bible to iOS and Android — what going mobile actually meant, what pair-programming with Claude Code looked like in practice, and why the paperwork took longer than the code."
 theme: Toha
 author:
