@@ -1,6 +1,6 @@
 ---
 title: "The Pre-Call Brief That Writes Itself"
-date: 2026-05-27T08:00:00Z
+date: 2026-05-26T09:00:00Z
 draft: false
 description: "A Claude skill that writes a briefing for every meeting on my calendar, every morning at 07:00, and Meeting Reminder slots it in front of me the moment I join the call."
 theme: Toha
