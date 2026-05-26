@@ -1,6 +1,6 @@
 ---
 title: "Two Files, One Habit: How Agentic Coding Projects Are Learning to Remember"
-date: 2026-05-26T10:00:00Z
+date: 2026-05-26T14:00:00Z
 draft: false
 description: "The state.md and worklog.md pattern that's quietly becoming the standard way to give coding agents durable memory across sessions."
 theme: Toha
