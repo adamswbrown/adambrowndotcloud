@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Downloads on Adam Brown's Cloud</title><link>https://adambrown.cloud/downloads/</link><description>Recent content in Downloads on Adam Brown's Cloud</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://adambrown.cloud/downloads/index.xml" rel="self" type="application/rss+xml"/><item><title>Briefing Builder</title><link>https://adambrown.cloud/downloads/briefing-builder/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/downloads/briefing-builder/</guid><description>&lt;p&gt;Most &amp;ldquo;daily briefing&amp;rdquo; skills assume you use the same stack as whoever wrote them.
+Briefing Builder doesn&amp;rsquo;t. It&amp;rsquo;s a meta-skill: it interviews you about your tools,
+role, and what &amp;ldquo;important&amp;rdquo; actually means to you — then generates a pair of
+briefing skills tailored to your setup.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a full write-up of why I built it on the blog:
+&lt;a href="https://adambrown.cloud/posts/briefing-builder-skill/"&gt;The Briefing Skill That Builds Itself Around You&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="what-it-does"&gt;What it does&lt;/h2&gt;
+&lt;p&gt;Run it once and it walks you through a short set of questions, then produces two
+ready-to-install skills:&lt;/p&gt;</description></item></channel></rss>
