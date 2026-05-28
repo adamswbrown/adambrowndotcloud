@@ -1,0 +1,93 @@
+{{ define "header" }}
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
+<style>
+  /* Full-width downloads index — collapse sidebar/toc columns */
+  body.type-downloads #sidebar-section,
+  body.type-downloads #toc-section { display: none !important; }
+  body.type-downloads .content-section { grid-column: 1 / -1 !important; width: 100% !important; max-width: 100% !important; }
+
+  .downloads-page { max-width: 1200px; margin: 0 auto; padding: 7rem 1.5rem 4rem; }
+  .downloads-header { text-align: center; margin-bottom: 3rem; }
+  .downloads-header h1 { font-weight: 700; margin-bottom: 1rem; }
+  .downloads-header p { max-width: 720px; margin: 0 auto; color: var(--text-secondary-color, #6c757d); font-size: 1.05rem; line-height: 1.6; }
+
+  .downloads-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem; }
+
+  .download-card {
+    display: flex; flex-direction: column;
+    background: var(--card-bg, #fff);
+    border: 1px solid var(--card-border, rgba(0,0,0,0.08));
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-decoration: none; color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+  .download-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); border-color: rgba(0,0,0,0.12); text-decoration: none; color: inherit; }
+
+  .download-card-head { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.85rem; }
+  .download-icon {
+    width: 42px; height: 42px;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(99, 102, 241, 0.12); color: #6366f1;
+    border-radius: 10px; font-size: 1.15rem; flex-shrink: 0;
+  }
+  .download-card h3 { margin: 0; font-size: 1.2rem; font-weight: 600; line-height: 1.3; }
+
+  .download-category {
+    display: inline-block; align-self: flex-start;
+    padding: 0.2rem 0.6rem; margin-bottom: 0.85rem;
+    background: rgba(16, 185, 129, 0.12); color: #10b981;
+    border-radius: 999px; font-size: 0.75rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.03em;
+  }
+
+  .download-desc { color: var(--text-secondary-color, #5a6170); font-size: 0.95rem; line-height: 1.55; margin-bottom: 1.1rem; }
+  .download-card-body { display: flex; flex-direction: column; flex-grow: 1; }
+  .download-card-footer { margin-top: auto; }
+
+  .download-cta-hint {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    color: var(--link-color, #6366f1); font-size: 0.9rem; font-weight: 600;
+  }
+
+  [data-theme="dark"] .download-card { background: #1e2530; border-color: rgba(255,255,255,0.08); }
+  [data-theme="dark"] .download-card:hover { border-color: rgba(255,255,255,0.15); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+  [data-theme="dark"] .downloads-header p,
+  [data-theme="dark"] .download-desc { color: #aeb5c0; }
+</style>
+{{ end }}
+
+{{ define "navbar" }}{{ partial "navigators/navbar.html" . }}{{ end }}
+{{ define "sidebar" }}{{ end }}
+{{ define "toc" }}{{ end }}
+
+{{ define "content" }}
+<section class="content-section" id="content-section">
+  <div class="downloads-page">
+    <div class="downloads-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.intro }}<p>{{ . }}</p>{{ end }}
+    </div>
+
+    <div class="downloads-grid">
+      {{ range .Pages.ByWeight }}
+      <a class="download-card" href="{{ .RelPermalink }}">
+        <div class="download-card-head">
+          {{ with .Params.icon }}<div class="download-icon"><i class="{{ . }}"></i></div>{{ end }}
+          <h3>{{ .Title }}</h3>
+        </div>
+        <div class="download-card-body">
+          {{ with .Params.category }}<span class="download-category">{{ . }}</span>{{ end }}
+          <p class="download-desc">{{ .Description }}</p>
+          <div class="download-card-footer">
+            <span class="download-cta-hint">
+              View &amp; download <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

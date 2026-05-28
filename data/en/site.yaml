@@ -16,6 +16,10 @@ customMenus:
   url: /projects/
   hideFromNavbar: false
   showOnFooter: true
+- name: Downloads
+  url: /downloads/
+  hideFromNavbar: false
+  showOnFooter: true
 - name: Lets Talk
   url: https://toha-guides.netlify.app/posts/
   hideFromNavbar: true
