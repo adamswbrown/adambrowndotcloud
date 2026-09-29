@@ -33,7 +33,8 @@ Leadership is thinking about risk, timing, and confidence.&lt;/p&gt;</descriptio
 &lt;blockquote&gt;
 &lt;p&gt;What’s the &lt;em&gt;point&lt;/em&gt; of this prayer?&lt;br&gt;
 Why did Jesus teach us to pray this way?&lt;br&gt;
-And how is it meant to shape our everyday lives?&lt;/p&gt;</description></item><item><title>Sermon Notes - 15 June - Lead Us Not into Temptation</title><link>https://adambrown.cloud/posts/sermon-notes-15-june/</link><pubDate>Sun, 15 Jun 2025 10:00:00 +0000</pubDate><guid>https://adambrown.cloud/posts/sermon-notes-15-june/</guid><description>&lt;p&gt;As we&amp;rsquo;ve journeyed slowly through the Lord’s Prayer over the past few weeks at &lt;a href="https://standrewsbangor.org.uk" target="_blank" rel="noopener"&gt;St Andrew’s Presbyterian Church, Bangor&lt;/a&gt;, we’ve arrived at its final petition:&lt;/p&gt;
+And how is it meant to shape our everyday lives?&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>Sermon Notes - 15 June - Lead Us Not into Temptation</title><link>https://adambrown.cloud/posts/sermon-notes-15-june/</link><pubDate>Sun, 15 Jun 2025 10:00:00 +0000</pubDate><guid>https://adambrown.cloud/posts/sermon-notes-15-june/</guid><description>&lt;p&gt;As we&amp;rsquo;ve journeyed slowly through the Lord’s Prayer over the past few weeks at &lt;a href="https://standrewsbangor.org.uk" target="_blank" rel="noopener"&gt;St Andrew’s Presbyterian Church, Bangor&lt;/a&gt;, we’ve arrived at its final petition:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;“Lead us not into temptation, but deliver us from the evil one.”&lt;/em&gt;&lt;br&gt;
 — &lt;strong&gt;Luke 11:4 / Matthew 6:13 (NIV)&lt;/strong&gt;&lt;/p&gt;
@@ -159,7 +160,10 @@ And how is it meant to shape our everyday lives?&lt;/p&gt;</description></item><
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;amp;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;a&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;a&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; new(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;*&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;a&lt;/span&gt; = &lt;span style="color:#ae81ff"&gt;234&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pointers point to a memory location of a variable. Go is fully garbage-collected.&lt;/p&gt;</description></item><item><title>অ্যাডভান্সড</title><link>https://adambrown.cloud/notes/go/advanced/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/go/advanced/_index.bn/</guid><description/></item><item><title>Flow Control</title><link>https://adambrown.cloud/notes/go/basic/flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/go/basic/flow-control/</guid><description>&lt;!-- Condition --&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pointers point to a memory location of a variable. Go is fully garbage-collected.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>অ্যাডভান্সড</title><link>https://adambrown.cloud/notes/go/advanced/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/go/advanced/_index.bn/</guid><description/></item><item><title>Flow Control</title><link>https://adambrown.cloud/notes/go/basic/flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adambrown.cloud/notes/go/basic/flow-control/</guid><description>&lt;!-- Condition --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
